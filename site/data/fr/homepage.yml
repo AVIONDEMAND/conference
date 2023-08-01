@@ -1,43 +1,42 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "The future <br> & Tech Expo"
-  bg_image: "images/banner/banner-2.jpg"
-  date_time : "November 12, at 10.00am"
+  title : "International <br> Conference for <br> Automotive <br> Training"
+  bg_image: "images/banner/banner-2.png"
+  date_time : "January 11th - 13th, 2024"
   button:
     enable : "Discover more"
     label : "Discover more"
-    link : "service"
+    link : "about"
 
 ########################## timer #################################
 timer:
   enable : true
   title : "**Count the day** <br> until conference start"
   # set timer
-  year: "2020"
-  month: "09"
-  day: "01"
-  hour: "01"
+  year: "2024"
+  month: "01"
+  day: "11"
+  hour: "08"
 
 ############################## Event ##############################
 event:
   enable : true
   title_outline : "event"
-  title : "The New Era of Tech Companies"
-  image_back : "images/about/h1-gallery-img-7.jpg"
-  image_front : "images/about/main-home-img-1.jpg"
-  content : "Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aeneansollicitudin, lorem quis bibendum
-              auctonisi elit consequat ipsum nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursusa sit nibh vel velit."
+  title : "Welcome to our Sustainable Future"
+  image_back : "images/about/h1-gallery-img-7.png"
+  image_front : "images/about/main-home-img-1.png"
+  content : "Learn how the industry is changing and how you can thrive within it. Keep your skills relevant and knowledge competitive with emerging technologies."
   button:
     enable : true
     label : "Discover More"
-    link : "service"
+    link : "about"
 
 ######################### Call to action #########################
 cta:
   enable : true
-  subtitle : "10% Sale offer for early birds"
-  title : "Meet top **digital masters** <br> & influencers in a unique **3-days** experience."
+  subtitle : "Timing belt a turning, don't get caught without a spot!"
+  title : "Meet the best **automotive educators** <br> & industry partners in a unique **3-day** experience."
   image : "images/banner/rev-slider-09.png"
   button:
     enable : true
@@ -47,21 +46,21 @@ cta:
 ############################# Feature ###########################
 feature:
   enable: true
-  feature_item: 
+  feature_item:
     # feature item loop
-    - name : "Valuable Insight"
-      icon : "tf-ion-android-microphone"
-      content : "Events Drinks and Dancing are hosting an After Party and YOU ARE INVITED!!"
-      
+    - name : "Rev you Business"
+      icon : "tf-ion-ios-speedometer"
+      content : "The training your business needs, the hands-on approach your employee's want."
+
     # feature item loop
-    - name : "Global Audience"
-      icon : "tf-ion-android-globe"
-      content : "Starting a mentoring program might be the closest you'll ever get to making a business decision that has exclusively positive impact."
-      
+    - name : "Vendor Hall"
+      icon : "tf-ion-ios-world"
+      content : "Build your manufacturer network without the wait. The brands you know without the barriers."
+
     # feature item loop
-    - name : "Great Community"
-      icon : "tf-ion-android-share"
-      content : "Networking is the exchange of information and ideas among people with a common profession or special interest, usually in an informal social setting."
+    - name : "Insider Insights"
+      icon : "tf-ion-wrench"
+      content : "Learn about the latest industry trends and train on the newest technology."
 
 ####################### Schedule #############################
 schedule:
@@ -75,84 +74,88 @@ pricing:
 
 ########################## speaker ##########################
 speaker:
-  enable : true
+  enable : false
   title_outline : "Speakers"
   title : "Who're speaking"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  content : "The conference is dedicated to bringing together a significant number of diverse contributions from industry leaders, providing exceptional value for students, technicians, and their vendors."
   # speaker content comes from "content/speaker" folder
 
 ######################### sponsor ############################
 sponsor:
-  enable :  true
+  enable : true
   title_outline : "Sponsors"
   title : "Amazing Partners & Sponsors"
   sponsor_group:
     ############################ sponsor group loop
     - title : "Amazing Partners & Sponsors"
       sponsor:
-        # sponcor loop
-        - logo : "images/clients/client-img-1.png"
-          link : "https://examplesite.org"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-2.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-3.png"
-          link : "https://examplesite.org"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-4.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-5.png"
-          link : "https://examplesite.org"
-          
+        # sponsor loop
+        - logo : "images/clients/avi.png"
+          link : "https://aviondemand.com/"
+
+        # sponsor loop
+        - logo : "images/clients/federated.png"
+          link : "https://www.federatedcc.com/"
+
+        # sponsor loop
+        - logo : "images/clients/pronto.png"
+          link : "https://www.prontocarcare.com/"
+
+        # sponsor loop
+        - logo : "images/clients/apa_trustar.png"
+          link : "https://www.partspluscarcarecenter.com/"
+
     ############################ sponsor group loop
     - title : "Platinum Sponsors"
       sponsor:
-        # sponcor loop
-        - logo : "images/clients/client-img-6.png"
-          link : "https://examplesite.org"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-7.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-8.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-9.png"
-          link : "https://examplesite.org"
+        # sponsor loop
+        - logo : "images/clients/bosch.png"
+          link : "https://www.bosch.com/products-and-services/market-specific-solutions/solutions-for-the-automotive-industry/"
 
-        # sponcor loop
-        - logo : "images/clients/client-img-1.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-2.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-3.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-4.png"
-          link : "https://examplesite.org"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-5.png"
-          link : "#"
-  
+        # sponsor loop
+        - logo : "images/clients/honeywell.png"
+          link : "https://pmt.honeywell.com/us/en/industries/automotive"
+
+        # sponsor loop
+        - logo : "images/clients/nissens.png"
+          link : "https://www.mahle.com/"
+
+        # sponsor loop
+        - logo : "images/clients/hella.png"
+          link : "https://myhellalights.com/"
+
+        # sponsor loop
+        - logo : "images/clients/macsw.png"
+          link : "https://www.dormanproducts.com/"
+
+        # sponsor loop
+        - logo : "images/clients/driv.png"
+          link : "https://www.drivparts.com/en-in/"
+
+        # sponsor loop
+        - logo : "images/clients/vipar.png"
+          link : "https://vipar.com/"
+
+        # sponsor loop
+        - logo : "images/clients/ap_emissions.png"
+          link : "https://apemissions.com/"
+
+        # sponsor loop
+        - logo : "images/clients/ae_tools.png"
+          link : "https://aetools.us/"
+
+        # sponsor loop
+        - logo : "images/clients/valeo.png"
+          link : "https://www.valeo.com/en/valeo-aftermarket/"
+
+        # sponsor loop
+        - logo : "images/clients/zf.png"
+          link : "https://www.zf.com/mobile/en/homepage/homepage.html"
+
   # call to action in sponsor
   sponsorship:
     enable : true
-    title : "Want to be a sponsor ?"
+    title : "Want to be a sponsor?"
     #button
     label : "apply now"
     link : "#"
@@ -161,18 +164,18 @@ sponsor:
 venue:
   enable : true
   title : "Venue location"
-  image : "images/bg/cta-bg.jpg"
-  date : "18 - 21 December, 2019"
-  location : "85 Golden Street, Darlinghurst <br>ERP 2019, United States"
-  button: 
+  image : "images/bg/venue.png"
+  date : "11 - 13 January, 2024"
+  location : "17260 Harbour Pointe Dr., Fort Myers <br>Florida 33908, United States"
+  button:
     enable : true
     label : "View Map location"
     link : "contact"
 
 ############################### Blog ######################################
 blog:
-  enable : true
+  enable : false
   title_outline : "News"
   title : "Latest News"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  content : "As the gear turns. If it's moving the spindle you'll find it here."
   # blog content comes from "content/blog" folder

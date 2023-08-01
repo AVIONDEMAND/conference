@@ -2,29 +2,27 @@
 faq:
   title_outline : "Faq"
   title : "Frequently Asked Question"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fugit doloribus sunt sapiente,
-            corrupti numquam, earum molestiae iure maxime in nostrum sit facilis nemo. Magnam quam voluptate consequatur
-            inventore numquam?"
+  content : "Education is a shared commitment between dedicated teachers and motivated students with high expectations."
   faq_item:
     # faq item loop
-    - title : "How to buy a Tickets"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."
+    - title : "What are my accomodation options?"
+      content : ""
       
     # faq item loop
-    - title : "Which payments method are avaliable?"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."
+    - title : "Which payment methods are avaliable?"
+      content : ""
       
     # faq item loop
-    - title : "Is refund is avalaible for valid reason?"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."
+    - title : "Are refunds avalaible?"
+      content : ""
       
     # faq item loop
-    - title : "How to buy a Tickets"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."
+    - title : "How do I get my tickets?"
+      content : ""
       
     # faq item loop
-    - title : "When i wil have to reach?"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."
+    - title : "When does registration close?"
+      content : ""
 
   ################ support #################
   support:

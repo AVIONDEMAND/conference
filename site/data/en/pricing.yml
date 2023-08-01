@@ -2,7 +2,7 @@
 timer:
   enable : true
   title : "**Count the day** <br>until conference start"
-  content : "Our intensive 2-day business conferences will teach you the specific steps and proven systems you need to implement and grow your business. We hope you’ll join us!"
+  content : "Our intensive 3-day automotive conference will teach you the specific steps and proven systems you need to implement and grow your business. We hope you’ll join us!"
   # timer value comes from "homepage.yml" file
 
 ################################# Pricing ##########################
@@ -10,14 +10,14 @@ pricing:
   enable : true
   title_outline : "Price"
   title : "Get your Ticket"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  content : "Intersection of education & entertainment."
   pricing_table:
     # pricing table loop
-    - title : "Early"
+    - title : "Day Pass"
       style : "1"
-      price : "70$"
-      icon : "tf-ion-android-bulb"
-      bg_image : "images/bg/page-header.jpg"
+      price : "$70"
+      icon : "tf-ion-university"
+      bg_image : "images/bg/day.png"
       services:
         - "Two Days Ticket"
         - "Coffee & Launch"
@@ -30,11 +30,11 @@ pricing:
         link : "#"
         
     # pricing table loop
-    - title : "Team"
+    - title : "All Access"
       style : "2"
-      price : "250$"
-      icon : "tf-ion-android-hangout"
-      bg_image : "images/bg/page-header.jpg"
+      price : "$350"
+      icon : "tf-ion-settings"
+      bg_image : "images/bg/all_access.png"
       services:
         - "Two Days Ticket"
         - "Coffee & Launch"
@@ -48,11 +48,11 @@ pricing:
         link : "#"
         
     # pricing table loop
-    - title : "Economic"
+    - title : "Spouse Pass"
       style : "3"
-      price : "300$"
-      icon : "tf-ion-android-person"
-      bg_image : "images/bg/page-header.jpg"
+      price : "$600"
+      icon : "tf-ion-android-car"
+      bg_image : "images/bg/spouse.png"
       services:
         - "Two Days Ticket"
         - "Coffee & Launch"

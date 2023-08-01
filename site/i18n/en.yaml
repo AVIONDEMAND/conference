@@ -2,7 +2,7 @@
   translation: Read More
 
 - id: posted_by
-  translation: Posted by this author
+  translation: Posted by
 
 - id: message_us
   translation: Message Us
@@ -26,7 +26,7 @@
   translation: Subscribe now
 
 - id: not_spam
-  translation: We will not spam at your inbox .Don't panic
+  translation: We won't spam your inbox. Don't panic
 
 - id: email
   translation: Email

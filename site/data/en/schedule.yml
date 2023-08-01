@@ -1,149 +1,149 @@
 schedule:
   enable : true
   title_outline : "schedule"
-  title : "Topic Discussion"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis option."
+  title : "Course Schedule"
+  content : "Make sure you're everywhere you want to be."
   schedule_tab:
-    ################# tab itam loop ################
+    ################# tab item loop ################
     - title : "Day 1"
-      date_time : "13 Nov ,2019 [09.00am - 04.00pm]"
+      date_time : "11 Jan, 2024 [08.00am - 05.00pm]"
       schedule_items:
         # schedule loop item
         - time : "9.00am"
-          image : "images/about/wordpress.png"
+          image : "images/about/electric_shop.png"
           content : "
           
-          ### Introduction of material Design
+          ### Creating a Business Model for Electric Vehicle Service
 
-          ###### By Risabh moinul
+          ###### By Bill Haas
 
-          Founder of themefisher
+          Management
           "
           
         # schedule loop item
         - time : "9.00am"
-          image : "images/about/big-data.png"
+          image : "images/about/can.png"
           content : "
           
-          ### Marketing Matters in design area
+          ### F-CAN Networking & Communication
 
-          ###### By Risabh moinul
+          ###### By Ryan Kooiman
 
-          Founder of themefisher
+          Technical
           "
           
         # schedule loop item
         - time : "9.00am"
-          image : "images/about/lunch.jpg"
+          image : "images/about/adas.png"
           content : "
           
-          ### Launch Break
+          ### Advanced Driver Assistance Systems
 
-          ###### By Risabh moinul
+          ###### By Dave Hobbs
 
-          Founder of themefisher
+          Technical
           "
           
         # schedule loop item
         - time : "2.00pm"
-          image : "images/about/creativity.jpg"
+          image : "images/about/air_brake.png"
           content : "
           
-          ### Cultures of Creativity
+          ### Heavy Duty Air Brakes
 
-          ###### By Risabh moinul
+          ###### By John Barclay
 
-          Founder of themefisher
+          Technical
           "
           
-    ################# tab itam loop ################
+    ################# tab item loop ################
     - title : "Day 2"
-      date_time : "14 Nov ,2019 [09.00am - 04.00pm]"
+      date_time : "12 Jan, 2024 [08.00am - 05.00pm]"
       schedule_items:
         # schedule loop item
         - time : "2.00pm"
-          image : "images/about/creativity.jpg"
+          image : "images/about/trainer.png"
           content : "
           
-          ### Cultures of Creativity
+          ### Train the Trainer: EV/Hybrid program in your school
 
-          ###### By Risabh moinul
+          ###### By Bill Haas
 
-          Founder of themefisher
+          Management
           "
 
         # schedule loop item
         - time : "9.00am"
-          image : "images/about/wordpress.png"
+          image : "images/about/air_con.png"
           content : "
           
-          ### Launch Break
+          ### Electric A/C Compressors
 
-          ###### By Risabh moinul
+          ###### By Mark DeKoster
 
-          Founder of themefisher
+          Technical
           "
           
         # schedule loop item
         - time : "9.00am"
-          image : "images/about/big-data.png"
+          image : "images/about/electric.png"
           content : "
           
-          ### Marketing Matters in design area
+          ### Electric Tips & Tricks
 
-          ###### By Risabh moinul
+          ###### By John Barclay
 
-          Founder of themefisher
+          Technical
           "
           
-    ################# tab itam loop ################
+    ################# tab item loop ################
     - title : "Day 3"
-      date_time : "15 Nov ,2019 [09.00am - 04.00pm]"
+      date_time : "13 Jan ,2024 [08.00am - 05.00pm]"
       schedule_items:
         # schedule loop item
         - time : "9.00am"
-          image : "images/about/big-data.png"
+          image : "images/about/sustainability.png"
           content : "
           
-          ### Marketing Matters in design area
+          ### Industry Insights Panel: Sustainability
 
-          ###### By Risabh moinul
+          ###### By The Group
 
-          Founder of themefisher
+          Industry
           "
           
         # schedule loop item
         - time : "9.00am"
-          image : "images/about/lunch.jpg"
+          image : "images/about/scan.png"
           content : "
           
-          ### Launch Break
+          ### Dollars in Diagnostics: Lab Scope
 
-          ###### By Risabh moinul
+          ###### By Dave Hobbs
 
-          Founder of themefisher
+          Technical
           "
 
         # schedule loop item
         - time : "9.00am"
-          image : "images/about/wordpress.png"
+          image : "images/about/emissions.png"
           content : "
           
-          ### Introduction of material Design
+          ### Heavy Duty Emission Systems
 
-          ###### By Risabh moinul
+          ###### By Tom Rayk
 
-          Founder of themefisher
+          Technical
           "
           
         # schedule loop item
         - time : "2.00pm"
-          image : "images/about/creativity.jpg"
+          image : "images/about/profit.png"
           content : "
           
-          ### Cultures of Creativity
+          ### What's Wearing Down Your Profits?
 
-          ###### By Risabh moinul
+          ###### By Frank Leutz
 
-          Founder of themefisher
+          Management
           "

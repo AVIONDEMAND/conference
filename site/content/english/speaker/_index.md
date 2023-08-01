@@ -2,10 +2,10 @@
 title: "Speakers"
 date: 2019-09-10T13:51:25+06:00
 draft: false
-description: "this is meta description"
+description: "Meet your conference contributors"
 bg_image : "images/bg/cta-bg.jpg"
 ---
 
 ## Who're speaking
 
-Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio.
+The conference is dedicated to bringing together a significant number of diverse contributions from industry leaders, providing exceptional value for students, technicians, and their vendors.
