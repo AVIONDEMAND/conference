@@ -12,50 +12,50 @@ schedule:
         - time : "9.00am"
           image : "images/about/electric_shop.png"
           content : "
-          
+
           ### Creating a Business Model for Electric Vehicle Service
 
           ###### By Bill Haas
 
           Management
           "
-          
+
         # schedule loop item
         - time : "9.00am"
           image : "images/about/can.png"
           content : "
-          
+
           ### F-CAN Networking & Communication
 
           ###### By Ryan Kooiman
 
           Technical
           "
-          
+
         # schedule loop item
         - time : "9.00am"
           image : "images/about/adas.png"
           content : "
-          
+
           ### Advanced Driver Assistance Systems
 
           ###### By Dave Hobbs
 
           Technical
           "
-          
+
         # schedule loop item
         - time : "2.00pm"
           image : "images/about/air_brake.png"
           content : "
-          
+
           ### Heavy Duty Air Brakes
 
           ###### By John Barclay
 
           Technical
           "
-          
+
     ################# tab item loop ################
     - title : "Day 2"
       date_time : "12 Jan, 2024 [08.00am - 05.00pm]"
@@ -64,7 +64,7 @@ schedule:
         - time : "2.00pm"
           image : "images/about/trainer.png"
           content : "
-          
+
           ### Train the Trainer: EV/Hybrid program in your school
 
           ###### By Bill Haas
@@ -76,26 +76,26 @@ schedule:
         - time : "9.00am"
           image : "images/about/air_con.png"
           content : "
-          
+
           ### Electric A/C Compressors
 
           ###### By Mark DeKoster
 
           Technical
           "
-          
+
         # schedule loop item
         - time : "9.00am"
           image : "images/about/electric.png"
           content : "
-          
+
           ### Electric Tips & Tricks
 
           ###### By John Barclay
 
           Technical
           "
-          
+
     ################# tab item loop ################
     - title : "Day 3"
       date_time : "13 Jan ,2024 [08.00am - 05.00pm]"
@@ -104,19 +104,19 @@ schedule:
         - time : "9.00am"
           image : "images/about/sustainability.png"
           content : "
-          
+
           ### Industry Insights Panel: Sustainability
 
           ###### By The Group
 
           Industry
           "
-          
+
         # schedule loop item
         - time : "9.00am"
           image : "images/about/scan.png"
           content : "
-          
+
           ### Dollars in Diagnostics: Lab Scope
 
           ###### By Dave Hobbs
@@ -128,22 +128,50 @@ schedule:
         - time : "9.00am"
           image : "images/about/emissions.png"
           content : "
-          
+
           ### Heavy Duty Emission Systems
 
           ###### By Tom Rayk
 
           Technical
           "
-          
+
         # schedule loop item
         - time : "2.00pm"
           image : "images/about/profit.png"
           content : "
-          
+
           ### What's Wearing Down Your Profits?
 
           ###### By Frank Leutz
 
           Management
+          "
+
+    ################# tab item loop ################
+    - title : "Day 4"
+      date_time : "14 Jan ,2024 [08.00am - 05.00pm]"
+      schedule_items:
+        # schedule loop item
+        - time : "9.00am"
+          image : "images/about/sustainability.png"
+          content : "
+
+          ### Industry Insights Panel: Sustainability
+
+          ###### By The Group
+
+          Industry
+          "
+
+        # schedule loop item
+        - time : "9.00am"
+          image : "images/about/scan.png"
+          content : "
+
+          ### Dollars in Diagnostics: Lab Scope
+
+          ###### By Dave Hobbs
+
+          Technical
           "

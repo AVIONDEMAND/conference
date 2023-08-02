@@ -1,7 +1,7 @@
 ################################# Faq ####################################
 faq:
   title_outline : "Faq"
-  title : "Frequently Asked Question"
+  title : "Frequently Asked Questions"
   content : "Education is a shared commitment between dedicated teachers and motivated students with high expectations."
   faq_item:
     # faq item loop

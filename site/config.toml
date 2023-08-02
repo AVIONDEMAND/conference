@@ -96,14 +96,14 @@ email = "support@aviconference.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = ""
+google_analitycs_id = "G-NCLXZG2KQL"
 # search for blog page
-search = true
+search = false
 
 # Preloader
 [params.preloader]
 enable = true
-preloader = "" # use jpg, png, svg or gif format.
+preloader = "png" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
@@ -122,7 +122,7 @@ mailchimp_form_name = "" # replace this code with yours
 # google map
 [params.map]
 enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNO7jpQ4fRyOCtqq0rxwdZJg30Q0z4t-s&libraries=places"
 map_latitude = "20.489113"
 map_longitude = "-82.0131468"
 map_marker = "images/marker.png"
@@ -160,7 +160,7 @@ home = "Home"
 # footer content
 footer_content = "Join the premiere parts partner for expert, on-site training!"
 # copyright
-copyright = "Copyright Reserved to TGTA Conference"
+copyright = "Powered by AVI"
 
 
 ################################### French language #####################################
