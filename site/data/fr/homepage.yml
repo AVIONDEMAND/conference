@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "International <br> Conference for <br> Automotive <br> Training"
   bg_image: "images/banner/banner-2.png"
-  date_time : "January 11th - 13th, 2024"
+  date_time : "January 11th - 14th, 2024"
   button:
     enable : "Discover more"
     label : "Discover more"
@@ -12,7 +12,7 @@ banner:
 ########################## timer #################################
 timer:
   enable : true
-  title : "**Count the day** <br> until conference start"
+  title : "**Count the days** <br> until conference starts"
   # set timer
   year: "2024"
   month: "01"
@@ -48,7 +48,7 @@ feature:
   enable: true
   feature_item:
     # feature item loop
-    - name : "Rev you Business"
+    - name : "Rev your Business"
       icon : "tf-ion-ios-speedometer"
       content : "The training your business needs, the hands-on approach your employee's want."
 
@@ -98,12 +98,20 @@ sponsor:
           link : "https://www.federatedcc.com/"
 
         # sponsor loop
+        - logo : "images/clients/btb.png"
+          link : "https://www.bumpertobumper.com/"
+
+        # sponsor loop
         - logo : "images/clients/pronto.png"
           link : "https://www.prontocarcare.com/"
 
         # sponsor loop
-        - logo : "images/clients/apa_trustar.png"
+        - logo : "images/clients/parts_plus.png"
           link : "https://www.partspluscarcarecenter.com/"
+
+        # sponsor loop
+        - logo : "images/clients/auto_pride.png"
+          link : "https://www.autopride.com/"
 
     ############################ sponsor group loop
     - title : "Platinum Sponsors"
