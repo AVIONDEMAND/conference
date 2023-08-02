@@ -6,6 +6,6 @@ description: "Meet your conference contributors"
 bg_image : "images/bg/cta-bg.jpg"
 ---
 
-## Who're speaking
+## Industry Voices
 
 The conference is dedicated to bringing together a significant number of diverse contributions from industry leaders, providing exceptional value for students, technicians, and their vendors.
