@@ -6,27 +6,23 @@ faq:
   faq_item:
     # faq item loop
     - title : "What are my accomodation options?"
-      content : ""
-      
+      content : "Enjoy the incredible view of San Carlos Bay while you stay at the Marriott Sanibel Harbor Resort & Spa! Rooms sell out every year so be sure to get yours while you can. Besure to let the hotel know about *Group Rate Identifier*"
+
     # faq item loop
     - title : "Which payment methods are avaliable?"
-      content : ""
-      
+      content : "We use Stripe as our payment processor which supports 20+ payment methods including credit and debit cards, Apple Pay, and Google Pay."
+
     # faq item loop
     - title : "Are refunds avalaible?"
-      content : ""
-      
-    # faq item loop
-    - title : "How do I get my tickets?"
-      content : ""
-      
+      content : "The event start date is January 11th, 2024. For cancellations made at least 30 days prior to the event start date a full refund will be issued. For cancellations made 29 to 14 days prior to the event start date a 50% refund will be issued. For cancellations made less than 14 days prior to the event start date no refund will be issued. Considerations will be made on a case-by-case basis. Please reach out to us if something comes up that would cause you to cancel."
+
     # faq item loop
     - title : "When does registration close?"
-      content : ""
+      content : "December 11th, 2023 which is also the last day to make hotel reservations if you want to take advantage of our group rate."
 
-  ################ support #################
+################################# Support ####################################
   support:
     title : "Need Any further Support?"
     button:
-      lable : "Contact us"
+      lable : "Contact Us"
       link : "contact"

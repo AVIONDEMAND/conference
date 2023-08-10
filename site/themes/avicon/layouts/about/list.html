@@ -9,15 +9,20 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<img src="{{ .image | absURL }}" alt="" class="img-fluid">
+				<img src="{{ .bg_image | absURL }}" alt="" class="img-fluid">
 			</div>
 		</div>
-		<div class="row mt-5">
+        <div class="row mt-5">
 			<div class="col-lg-6">
 				<h2 class="mb-4 text-lg title">{{ .title | markdownify }}</h2>
 			</div>
-			<div class="col-lg-6">
-				<p>{{ .content | markdownify }}</p>
+            <div class="row align-items-center">
+			    <div class="col-lg-6">
+				    <p>{{ .content | markdownify }}</p>
+			    </div>
+                <div class="col-lg-5 mt-5 mt-lg-0 d-none d-lg-block">
+                    <img src="{{ .image | absURL }}" alt="" class="img-fluid">
+                </div>
 			</div>
 		</div>
 	</div>

@@ -1,10 +1,12 @@
-################## about #################################
+################## About #################################
 about:
   enable : true
-  image : "images/bg/ctg.png"
-  title : "Innovation & **Inspiration** Connect People"
-  content : "The goal of the Group is a solid focus on **best in class** in order to maximize overall value and support within the auto care industry. Our conference is a manifestation of our committment to these ideals and the automotive community at large."
-################## sponsor ###############################
+  bg_image : "images/bg/ctg.png"
+  image : "images/about/main-about-img-1.png"
+  title : "The Best Automotive Training Under the Sun"
+  content : "The Group Training Academy Conference is a yearly event focused on automotive aftermarket training and tier 1 vendor showcase. The Group Training Academy is the training arm of the Automotive Parts Services Group. Federated Auto Parts and The Pronto Network merged their efforts and resources in a number of key areas to form the Automotive Parts Services Group or simply, The Group. The goal of The Group is a solid focus on **best in class** in order to provide overall value and support within the auto care industry, build upon the success, cultures and relationships of The Pronto Network and Federated, and work together for a stronger future. Recently the Alliance has partnered with Federated Auto Parts and have joined the Group. With great banner shops like Bumper to Bumper, Auto Value, and Confidence Plus, the Alliance enhances The Group Training Academy is powered by AVI. Automotive Video Innovations (AVI) was founded in 1994. AVI is an ASE Accredited Training Provider for the automotive industry. The mission of AVI is to produce automotive repair training courses and information for the automotive aftermarket, providing current and future repair technicians with the highest level of technical training available. AVI produces automotive technician training for online On Demand, instructor-led courses, technical training manuals and other media, with a commitment to continually update this training to stay in-step with the evolution of automotive technology."
+
+################## Sponsor ###############################
 sponsor:
   enable : true
   # sponsor data comes from "homepage.yml" file

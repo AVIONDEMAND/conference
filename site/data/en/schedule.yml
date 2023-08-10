@@ -1,8 +1,9 @@
+################################# Schedule ############################
 schedule:
-  enable : true
+  enable : false
   title_outline : "schedule"
   title : "Course Schedule"
-  content : "Make sure you're everywhere you want to be."
+  content : "Action packed with just enough space to give you a chance to spend time on the beach!"
   schedule_tab:
     ################# tab item loop ################
     - title : "Day 1"
@@ -157,21 +158,9 @@ schedule:
           image : "images/about/sustainability.png"
           content : "
 
-          ### Industry Insights Panel: Sustainability
+          ### Train the Trainer: Sustainability
 
-          ###### By The Group
-
-          Industry
-          "
-
-        # schedule loop item
-        - time : "9.00am"
-          image : "images/about/scan.png"
-          content : "
-
-          ### Dollars in Diagnostics: Lab Scope
-
-          ###### By Dave Hobbs
+          ###### By AVI
 
           Technical
           "
