@@ -1,15 +1,16 @@
-############################# banner ################################
+############################# Banner ################################
 banner:
   enable : true
-  title : "International <br> Conference for <br> Automotive <br> Training"
+  title : "Advanced <br> Training <br> for the <br> Automotive <br> Professional"
   bg_image: "images/banner/banner-2.png"
-  date_time : "January 11th - 14th, 2024"
+  bg_video: "JmEEjJv4NzY"
+  date_time : "January 11th - 14th 2024"
   button:
-    enable : "Discover more"
-    label : "Discover more"
-    link : "about"
+    enable : "Register Now"
+    label : "Register Now"
+    link : "pricing"
 
-########################## timer #################################
+########################## Timer #################################
 timer:
   enable : true
   title : "**Count the days** <br> until conference starts"
@@ -23,24 +24,24 @@ timer:
 event:
   enable : true
   title_outline : "event"
-  title : "Welcome to our Sustainable Future"
+  title : "Get Your Hands on Cutting-Edge Training Aids"
   image_back : "images/about/h1-gallery-img-7.png"
   image_front : "images/about/main-home-img-1.png"
-  content : "Learn how the industry is changing and how you can thrive within it. Keep your skills relevant and knowledge competitive with emerging technologies."
+  content : "AVI has provided the Group Training Academy Conference with unparalleled training aids to teach technicians real world techniques. Experience the best Hands-On Automotive Technician training in the world with our Heavy Duty Air Brake Training Aid, keep cool with the Chillinator, our newest electric air conditioning training aid, or build confidence while learning the intricacies of Electric Vehicles with EVa, the EV training aid."
   button:
     enable : true
     label : "Discover More"
     link : "about"
 
-######################### Call to action #########################
+######################### Call to Action #########################
 cta:
   enable : true
   subtitle : "Timing belt a turning, don't get caught without a spot!"
-  title : "Meet the best **automotive educators** <br> & industry partners in a unique **3-day** experience."
+  title : "Meet the best **automotive educators** <br> & industry partners in a unique **4-day** experience."
   image : "images/banner/rev-slider-09.png"
   button:
     enable : true
-    label : "get ticket"
+    label : "Register Now"
     link : "pricing"
 
 ############################# Feature ###########################
@@ -50,29 +51,29 @@ feature:
     # feature item loop
     - name : "Rev your Business"
       icon : "tf-ion-ios-speedometer"
-      content : "The training your business needs, the hands-on approach your employee's want."
+      content : "Take our management courses to help your business meet the changing marketplace and increase profitability."
 
     # feature item loop
     - name : "Vendor Hall"
       icon : "tf-ion-ios-world"
-      content : "Build your manufacturer network without the wait. The brands you know without the barriers."
+      content : "Meet with tier 1 Original Equipment Manufacturers to get the latest news and build business relationships that will last a lifetime."
 
     # feature item loop
     - name : "Insider Insights"
       icon : "tf-ion-wrench"
-      content : "Learn about the latest industry trends and train on the newest technology."
+      content : "Learn about the latest industry trends. Meet with other shop owners and technicians to exchange ideas and craft new friendships."
 
 ####################### Schedule #############################
 schedule:
   enable : true
   # schedule data comes from "schedule.yml" file
 
-####################### pricing #############################
+####################### Pricing #############################
 pricing:
   enable : true
   # pricing data comes from "pricing.yml" file
 
-########################## speaker ##########################
+########################## Speaker ##########################
 speaker:
   enable : false
   title_outline : "Speakers"
@@ -80,100 +81,48 @@ speaker:
   content : "The conference is dedicated to bringing together a significant number of diverse contributions from industry leaders, providing exceptional value for students, technicians, and their vendors."
   # speaker content comes from "content/speaker" folder
 
-######################### sponsor ############################
+######################### Sponsor ############################
 sponsor:
   enable : true
   title_outline : "Sponsors"
-  title : "Amazing Partners & Sponsors"
+  title : "Special Thanks to our Amazing Partners"
   sponsor_group:
     ############################ sponsor group loop
-    - title : "Amazing Partners & Sponsors"
+    - title : "Prime Sponsors"
       sponsor:
         # sponsor loop
         - logo : "images/clients/avi.png"
           link : "https://aviondemand.com/"
 
         # sponsor loop
-        - logo : "images/clients/federated.png"
-          link : "https://www.federatedcc.com/"
-
-        # sponsor loop
-        - logo : "images/clients/btb.png"
-          link : "https://www.bumpertobumper.com/"
-
-        # sponsor loop
-        - logo : "images/clients/pronto.png"
-          link : "https://www.prontocarcare.com/"
-
-        # sponsor loop
-        - logo : "images/clients/parts_plus.png"
-          link : "https://www.partspluscarcarecenter.com/"
-
-        # sponsor loop
-        - logo : "images/clients/auto_pride.png"
-          link : "https://www.autopride.com/"
+        - logo : "images/clients/apsg.png"
+          link : "https://www.thegroupapsg.com/"
 
     ############################ sponsor group loop
-    - title : "Platinum Sponsors"
+    - title : "Strategic Partners"
       sponsor:
         # sponsor loop
         - logo : "images/clients/bosch.png"
           link : "https://www.bosch.com/products-and-services/market-specific-solutions/solutions-for-the-automotive-industry/"
 
         # sponsor loop
-        - logo : "images/clients/honeywell.png"
-          link : "https://pmt.honeywell.com/us/en/industries/automotive"
-
-        # sponsor loop
-        - logo : "images/clients/nissens.png"
-          link : "https://www.mahle.com/"
-
-        # sponsor loop
-        - logo : "images/clients/hella.png"
-          link : "https://myhellalights.com/"
-
-        # sponsor loop
-        - logo : "images/clients/macsw.png"
-          link : "https://www.dormanproducts.com/"
-
-        # sponsor loop
         - logo : "images/clients/driv.png"
           link : "https://www.drivparts.com/en-in/"
-
-        # sponsor loop
-        - logo : "images/clients/vipar.png"
-          link : "https://vipar.com/"
-
-        # sponsor loop
-        - logo : "images/clients/ap_emissions.png"
-          link : "https://apemissions.com/"
-
-        # sponsor loop
-        - logo : "images/clients/ae_tools.png"
-          link : "https://aetools.us/"
-
-        # sponsor loop
-        - logo : "images/clients/valeo.png"
-          link : "https://www.valeo.com/en/valeo-aftermarket/"
-
-        # sponsor loop
-        - logo : "images/clients/zf.png"
-          link : "https://www.zf.com/mobile/en/homepage/homepage.html"
 
   # call to action in sponsor
   sponsorship:
     enable : true
-    title : "Want to be a sponsor?"
-    #button
+    title : "Want to be a part of this amazing opportunity?"
+    # button
     label : "apply now"
     link : "#"
 
-################################ venue ########################
+################################ Venue ########################
 venue:
   enable : true
-  title : "Venue location"
+  title : "Venue"
   image : "images/bg/venue.png"
-  date : "11 - 13 January, 2024"
+  date : "11th - 14th January, 2024"
   location : "17260 Harbour Pointe Dr., Fort Myers <br>Florida 33908, United States"
   button:
     enable : true

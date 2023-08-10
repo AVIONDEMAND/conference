@@ -23,18 +23,18 @@ social:
 skill:
   # skill loop
   - title : "ASE Master Automobile Technician"
-    icon : "tf-ion-android-document"
+    icon : "tf-ion-settings"
     content : "To achieve the status of ASE Master Technician, you must achieve certificati
 on in all tests A1-A8 in the series."
 
   # skill loop
   - title : "L1 Advanced Engine Performance"
-    icon : "tf-ion-android-desktop"
+    icon : "tf-ion-model-s"
     content : "In the early 1990s, the industry asked ASE for a certification test to address the enhanced I/M emissions initiatives of that time. The Advanced Engine Performance Specialist (L1) Test answered that call by measuring the knowledge needed to diagnose emission failures and driveability problems on computer-controlled engine systems."
 
   # skill loop
   - title : "M.A. Career and Technical Education"
-    icon : "tf-ion-android-bulb"
+    icon : "tf-ion-university"
     content : "Currently Mark teaches in the Auto Service Technology and the Automotive Management Programs at Ferris State University."
 ---
 

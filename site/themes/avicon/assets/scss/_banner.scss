@@ -1,30 +1,79 @@
 .section-banner {
-  min-height: 700px;
   position: relative;
-  background: #eee;
-  background-repeat: no-repeat;
-  background-position: 65% 50%;
-  background-size: cover;
+  min-height: 700px; /* Set a minimum height for the section */
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%; /* Ensure the video takes the whole row */
+  }
+
+  .video-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    border: 0;
+  }
+
+  .bg-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 60%;
+    display: flex; /* Add this to make the container and banner-content resize together */
+    flex-direction: column; /* Stack elements on top of each other */
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Center the content horizontally */
+    padding: 20px; /* Add some padding to the background-image div */
+
+    @include desktop {
+      width: 40%; /* Adjust the width for desktop */
+      padding: 40px; /* Adjust the padding for desktop */
+    }
+  }
+
+  .container {
+    z-index: 1; /* Ensure the content is on top of the background image */
+  }
 
   .banner-content {
+    text-align: center; /* Center the text content in all views */
     h1 {
       color: #fff;
-      font-size: 75px;
+      font-size: 60px;
       line-height: 1.2;
-      letter-spacing: -.04em;
-
+      letter-spacing: -0.04em;
       @include desktop {
-        font-size: 75px;
+        font-size: 60px; /* Adjust the font size for desktop */
       }
-
       @include tablet {
-        font-size: 40px;
+        font-size: 35px;
       }
     }
-
     span {
-      color: #fd7e14;
+      color: $primary-color;
       font-size: 18px;
+      @include desktop {
+        width: 80%; /* Adjust the width for desktop */
+        display: block; /* Make the span a block-level element for desktop */
+        margin: 0 auto; /* Center the span horizontally for desktop */
+      }
+      @include tablet {
+        font-size: 18px;
+      }
+    }
+    button {
+      @include desktop {
+        margin-top: 20px; /* Add some spacing between h1 and button for desktop */
+      }
     }
   }
 }
@@ -42,21 +91,82 @@
   display: block;
 }
 
-
 @include mobile {
   .section-banner {
-    min-height: 500px;
-  }
-}
-
-@include mobile-xs {
-  .section-banner {
-    min-height: 400px;
+    flex-direction: column; /* Stack elements on top of each other for mobile */
+    min-height: 400px; /* Adjust the minimum height for mobile */
+    .video-container {
+      padding-bottom: 56.25%; /* Restore aspect ratio for mobile */
+      height: 0; /* Restore the height for mobile */
+      iframe {
+        position: absolute; /* Restore absolute positioning for mobile */
+        width: 100%; /* Restore the width for mobile */
+        height: 100%; /* Restore the height for mobile */
+      }
+    }
+    .bg-image {
+      position: static; /* Remove absolute positioning for mobile */
+      width: 100%; /* Adjust the width for mobile */
+      height: auto; /* Allow the height to adjust to content for mobile */
+      padding: 20px; /* Add padding for mobile */
+      span {
+        width: 100%; /* Allow the span to take full width for mobile */
+        display: block; /* Make the span a block-level element for mobile */
+        text-align: center; /* Center the span text for mobile */
+      }
+      h1 {
+        text-align: center; /* Center the h1 text for mobile */
+      }
+      button {
+        width: 100%; /* Allow the button to take full width for mobile */
+        margin-top: 20px; /* Add spacing between h1 and button for mobile */
+        text-align: center; /* Center the button for mobile */
+      }
+    }
+    .container {
+      order: -1; /* Move the container to the top for mobile */
+      margin-top: 20px; /* Add some spacing for mobile */
+      padding: 0; /* Remove padding for mobile */
+    }
   }
 }
 
 @include tablet {
   .section-banner {
-    min-height: 515px;
+    flex-direction: column; /* Stack elements on top of each other for tablet */
+    min-height: 400px; /* Adjust the minimum height for tablet */
+    .video-container {
+      padding-bottom: 56.25%; /* Restore aspect ratio for tablet */
+      height: 0; /* Restore the height for tablet */
+      iframe {
+        position: absolute; /* Restore absolute positioning for tablet */
+        width: 100%; /* Restore the width for tablet */
+        height: 100%; /* Restore the height for tablet */
+      }
+    }
+    .bg-image {
+      position: static; /* Remove absolute positioning for tablet */
+      width: 100%; /* Adjust the width for tablet */
+      height: auto; /* Allow the height to adjust to content for tablet */
+      padding: 20px; /* Add padding for tablet */
+      span {
+        width: 100%; /* Allow the span to take full width for tablet */
+        display: block; /* Make the span a block-level element for tablet */
+        text-align: center; /* Center the span text for tablet */
+      }
+      h1 {
+        text-align: center; /* Center the h1 text for tablet */
+      }
+      button {
+        width: 100%; /* Allow the button to take full width for tablet */
+        margin-top: 20px; /* Add spacing between h1 and button for tablet */
+        text-align: center; /* Center the button for tablet */
+      }
+    }
+    .container {
+      order: -1; /* Move the container to the top for tablet */
+      margin-top: 20px; /* Add some spacing for tablet */
+      padding: 0; /* Remove padding for tablet */
+    }
   }
 }

@@ -108,7 +108,7 @@ preloader = "png" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Get Ticket"
+label = "Register Now"
 link = "pricing"
 
 
@@ -158,7 +158,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # footer content
-footer_content = "Join the premiere parts partner for expert, on-site training!"
+footer_content = "Send your best technician to premiere hands-on, expert-led training!"
 # copyright
 copyright = "Powered by AVI"
 

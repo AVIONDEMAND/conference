@@ -23,17 +23,17 @@ social:
 skill:
   # skill loop
   - title : "Industry Consultant"
-    icon : "tf-ion-android-document"
+    icon : "tf-ion-help-buoy"
     content : "Received the Accredited Automotive Manager (AAM) credential from the Automotive Management Institue in 1996. His knowledge of the industry has been shared on many occasions having gone all the way to the U.S. Congress."
 
   # skill loop
   - title : "Technical Trainer"
-    icon : "tf-ion-android-desktop"
+    icon : "tf-ion-ios-book"
     content : ""
 
   # skill loop
   - title : "Management Guru"
-    icon : "tf-ion-android-bulb"
+    icon : "tf-ion-ios-briefcase"
     content : "Shop owners rejoice, from hiring and payroll, to customer service Bill has the answers you need to be as successful as possible."
 ---
 

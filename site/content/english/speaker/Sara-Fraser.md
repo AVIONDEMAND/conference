@@ -23,12 +23,12 @@ social:
 skill:
   # skill loop
   - title : "Retail Rebel"
-    icon : "tf-ion-android-document"
+    icon : "tf-ion-pricetags"
     content : "Loves helping others grow and succeed and is excited to share her expertise on management, her views on how and why the younger generations think and act, and how to work and manage a business within a multi-generational workforce."
     
   # skill loop
   - title : "Social Media Consultant"
-    icon : "tf-ion-android-desktop"
+    icon : "tf-ion-ios-pulse-strong"
     content : "Don't let generational disconnect bring down your business. As customer expectations change it becomes ever more important to bridge those gaps and there is no better person to guide you through this process."
 ---
 

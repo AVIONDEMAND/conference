@@ -1,39 +1,39 @@
 ---
-title: "Frank Leutz"
+title: "Karl Schneider"
 date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "AVI Instructor"
 bg_image : "images/bg/cta-bg.jpg"
-image : "images/teams/s-frank.png"
-designation : "The Pod Father"
-email : "wrenchnationfrank@gmail.com"
+image : "images/teams/s-karl.png"
+designation : "Big Bosch"
+email : "karl.schneider@us.bosch.com"
 type : "speaker"
 social:
   # social site loop
   - icon : "tf-ion-social-facebook"
-    link : "https://www.facebook.com/wrenchnation/"
+    link : "https://www.facebook.com/BoschGlobal/"
   # social site loop
   - icon : "tf-ion-social-twitter"
-    link : "https://www.twitter.com/wrenchnation/"
+    link : "https://twitter.com/BoschGlobal/"
   # social site loop
   - icon : "tf-ion-social-linkedin"
-    link : "https://www.linkedin.com/in/frank-leutz-a3a7173"
+    link : "https://www.linkedin.com/in/karl-schneider-52a13023b"
 
 # professional skill
 skill:
   # skill loop
   - title : "EVIT Automotive & Radio Advisory Member"
-    icon : "tf-ion-network"
+    icon : "tf-ion-android-document"
     content : "An important service that committee members provide is to assist faculty in identifying job specific skills so that instruction will better reflect business/industry and further strengthen career and technical education."
 
   # skill loop
   - title : "National ASA Mechanical Operations Committee"
-    icon : "tf-ion-ios-people"
+    icon : "tf-ion-android-desktop"
     content : "Representing over 5,000 independent garage owners across the country which focuses on specific industry issues as they relate to the business of mechanical service and repair."
 
   # skill loop
   - title : "Wrench Nation Creator"
-    icon : "tf-ion-mic-c"
+    icon : "tf-ion-android-bulb"
     content : "An award-winning weekly radio podcast show. Premiering the unique & fascinating automotive talents & lifestyles of the industry."
 ---
 

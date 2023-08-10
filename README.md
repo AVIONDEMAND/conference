@@ -31,7 +31,7 @@ All the site information can be found in the `config.toml` file. Just edit it to
 * Speakers - to list information about speakers.
 * Sponsors - to show the brand of your sponsors.
 
-It's important to change the `baseurl` property from `config.toml` file in order to reflect your settings.
+It's important to change the `baseURL` property from `config.toml` file in order to reflect your settings.
 
 ### Google Maps
 
