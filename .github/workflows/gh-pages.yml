@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
@@ -22,7 +22,11 @@ jobs:
           extended: true
 
       - name: Build
-        run: cd site && hugo --minify
+        run: |
+          sed -i 's/^gmap_api =.*/gmap_api = "${{ secrets.GMAP_API }}"/g' config.toml
+          sed -i 's/^google_analytics_id =.*/google_analytics_id = "${{ secrets.ANALYTICS }}"/g' config.toml
+          hugo --minify
+        working-directory: ./site
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

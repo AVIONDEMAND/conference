@@ -48,9 +48,9 @@
 }
 .contact-info-block {
 	position: absolute;
-	content:"";
+	content: "";
 	left: 30px;
-	top:30px;
+	top: 30px;
 	z-index: 1;
 	background: $white;
 	@include mobile {

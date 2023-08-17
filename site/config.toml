@@ -7,9 +7,9 @@ paginate = "4"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "avicon" # get your shortname form here : https://disqus.com
+disqusShortname = "avicon" # get your shortname form here: https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = [] # disable language from here
 
 # output
 [outputs]
@@ -96,7 +96,7 @@ email = "support@aviconference.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "G-NCLXZG2KQL"
+google_analytics_id = ""
 # search for blog page
 search = false
 
@@ -122,7 +122,7 @@ mailchimp_form_name = "" # replace this code with yours
 # google map
 [params.map]
 enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNO7jpQ4fRyOCtqq0rxwdZJg30Q0z4t-s&libraries=places"
+gmap_api = ""
 map_latitude = "20.489113"
 map_longitude = "-82.0131468"
 map_marker = "images/marker.png"

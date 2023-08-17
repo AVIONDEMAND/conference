@@ -20,7 +20,7 @@
             <p>{{ .content | markdownify }}</p>
             {{ if .button.enable }}
             {{ with .button }}
-            <a href="{{ .link | absLangURL }}" class="btn btn-hero btn-rounded mt-3">{{ .label }}</a>
+            <a href="{{ .link | absLangURL }}" class="btn btn-hero btn-rounded mt-3" target="_blank">{{ .label }}</a>
             {{ end}}
             {{ end}}
           </div>
