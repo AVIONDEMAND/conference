@@ -26,7 +26,7 @@ jobs:
           ANALYTICS: ${{ secrets.ANALYTICS }}
           GMAP_API: ${{ secrets.GMAP_API }}
         run: |
-          sed -i -e "s/^gmap_api =.*/gmap_api = \"$GMAP_API\"/" -e "s/^google_analytics_id =.*/google_analytics_id = \"$ANALYTICS\"/" config.toml
+          sed -e "s|^gmap_api =.*|gmap_api = \"$GMAP_API\"|" -e "s|^google_analytics_id =.*|google_analytics_id = \"$ANALYTICS\"|" config.toml
           hugo --minify
         working-directory: ./site
 
