@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://aviondemand.github.io/conference/"
-title = "TGTA Conference"
+baseURL = "https://aviconference.com/"
+title = "AVI Conference"
 theme = "avicon"
 # post pagination
 paginate = "4"
@@ -173,4 +173,4 @@ home = "Accueil"
 # footer content
 footer_content = "Rejoignez la première entreprise de formation automobile pour une formation sur place dirigée par des experts!"
 # copyright
-copyright = "Copyright réservé à TGTA Conference"
+copyright = "Powered by AVI"
