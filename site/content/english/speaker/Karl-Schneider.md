@@ -22,20 +22,21 @@ social:
 # professional skill
 skill:
   # skill loop
-  - title : "EVIT Automotive & Radio Advisory Member"
-    icon : "tf-ion-android-document"
-    content : "An important service that committee members provide is to assist faculty in identifying job specific skills so that instruction will better reflect business/industry and further strengthen career and technical education."
+  - title : "ASE Master Automobile Technician"
+    icon : "tf-ion-settings"
+    content : "To achieve the status of ASE Master Technician, you must achieve certification in all tests A1-A8 in the series."
 
   # skill loop
-  - title : "National ASA Mechanical Operations Committee"
-    icon : "tf-ion-android-desktop"
-    content : "Representing over 5,000 independent garage owners across the country which focuses on specific industry issues as they relate to the business of mechanical service and repair."
+  - title : "L1 Advanced Engine Performance"
+    icon : "tf-ion-model-s"
+    content : "In the early 1990s, the industry asked ASE for a certification test to address the enhanced I/M emissions initiatives of that time. The Advanced Engine Performance Specialist (L1) Test answered that call by measuring the knowledge needed to diagnose emission failures and driveability problems on computer-controlled engine systems."
 
   # skill loop
-  - title : "Wrench Nation Creator"
-    icon : "tf-ion-android-bulb"
-    content : "An award-winning weekly radio podcast show. Premiering the unique & fascinating automotive talents & lifestyles of the industry."
+  - title : "L2 Electronic Diesel Engine Diagnosis Specialist"
+    icon : "tf-ion-android-bus"
+    content : "An advanced level test offered for medium and heavy vehicle technicians. The test measures a technician's knowledge of skills needed to diagnose sophisticated engine performance problems on computer-controlled diesel engines."
 ---
 
-After learning the ropes as a mechanic, he ventured out starting his first automotive shop in 1996 with $4,000, a used hoist, floor jack and lots of naive determination. Six years later, he profited through the sale of that business, and in 2004 opened Desert Car Care of Chandler in Chandler, Arizona.
-Desert Car Care expanded to a second location in 2009 and a third in 2012. Both were sold in 2013 to focus on the Chandler operation which grew to become a nationally recognized and award-winning seven-bay, top 1% national gross revenue automotive repair shop.
+Karl's journey in training began in the late 1990s at a local college and later extended tobecoming the lead trainer and program developer for the Massachusetts inspector certification program. His hands-on experience encompasses working with automobile parts manufacturers and tool suppliers, contributing to the development of training programs and research efforts.
+
+In 2012, Karl joined Robert Bosch LLC as a Senior Training Instructor, with a primary focus on diesel systems. He has meticulously studied Bosch diesel rebuilding procedures, equipping him to offer training on various diesel components. His involvement has expanded to include training in Advanced Driver Assistance Systems (ADAS) and program development. Karl's involvement also extends to the Diesel Helpdesk, where he possesses a comprehensive understanding of diesel test specifications and parts lookup for Bosch and Zexel. He collaborated with the Automotive Service Excellence (ASE) in constructing composite vehicle and testquestions for L2 Diesel and ADAS testing programs, as well as contributing to the diesel advanced app test question process.

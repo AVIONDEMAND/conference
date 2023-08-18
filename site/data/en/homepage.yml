@@ -31,7 +31,7 @@ event:
   button:
     enable : true
     label : "Discover More"
-    link : "about"
+    link : "resources/schedule.pdf"
 
 ######################### Call to Action #########################
 cta:
@@ -65,7 +65,7 @@ feature:
 
 ####################### Schedule #############################
 schedule:
-  enable : true
+  enable : false
   # schedule data comes from "schedule.yml" file
 
 ####################### Pricing #############################

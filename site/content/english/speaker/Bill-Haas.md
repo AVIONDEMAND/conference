@@ -24,12 +24,12 @@ skill:
   # skill loop
   - title : "Industry Consultant"
     icon : "tf-ion-help-buoy"
-    content : "Received the Accredited Automotive Manager (AAM) credential from the Automotive Management Institue in 1996. His knowledge of the industry has been shared on many occasions having gone all the way to the U.S. Congress."
+    content : "Received the Accredited Automotive Manager (AAM) credential from the Automotive Management Institue in 1996 and a member of the Automotive Management Institute (AMI) since 2002. His knowledge of the industry has been shared on many occasions ranging from your favorite conference all the way to the U.S. Congress."
 
   # skill loop
-  - title : "Technical Trainer"
+  - title : "Educator Extraordinaire"
     icon : "tf-ion-ios-book"
-    content : ""
+    content : "Vice president of education and training for the Automotive Service Association (ASA). While at ASA, he worked with shop owners and managers, advisory committees, vehicle manufacturers, information providers, tool and equipment companies, insurance companies, parts suppliers, program groups and related industry organizations."
 
   # skill loop
   - title : "Management Guru"
