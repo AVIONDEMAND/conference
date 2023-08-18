@@ -22,9 +22,11 @@ jobs:
           extended: true
 
       - name: Build
+        env:
+          ANALYTICS: ${{ secrets.ANALYTICS }}
+          GMAP_API: ${{ secrets.GMAP_API }}
         run: |
-          sed -i 's/^gmap_api =.*/gmap_api = "${{ secrets.GMAP_API }}"/' config.toml &&\
-          sed -i 's/^google_analytics_id =.*/google_analytics_id = "${{ secrets.ANALYTICS }}"/' config.toml
+          sed -i -e "s/^gmap_api =.*/gmap_api = \"$GMAP_API\"/" -e "s/^google_analytics_id =.*/google_analytics_id = \"$ANALYTICS\"/" config.toml
           hugo --minify
         working-directory: ./site
 
