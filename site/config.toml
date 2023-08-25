@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://aviconference.com/"
+baseURL = "https://aviondemand.github.io/conference"
 title = "AVI Conference"
 theme = "avicon"
 # post pagination
