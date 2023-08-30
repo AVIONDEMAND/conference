@@ -12,9 +12,12 @@
 				<img src="{{ .bg_image | absURL }}" alt="" class="img-fluid">
 			</div>
 		</div>
-        <div class="row mt-5">
+        <div class="row mt-5 align-items-center" style="text-align: center">
 			<div class="col-lg-6">
 				<h2 class="mb-4 text-lg title">{{ .title | markdownify }}</h2>
+			</div>
+			<div class="col-lg-6">
+                <a href="{{ .link | absURL }}" class="btn btn-secondary btn-rounded my-4">{{ .label }}</a>
 			</div>
             <div class="row align-items-center">
 			    <div class="col-lg-6">

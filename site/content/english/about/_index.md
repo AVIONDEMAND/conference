@@ -3,5 +3,5 @@ title: "About"
 date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "The premier autmotive education conference."
-bg_image : "images/bg/cta-bg.jpg"
+bg_image : "images/bg/cta-bg.png"
 ---

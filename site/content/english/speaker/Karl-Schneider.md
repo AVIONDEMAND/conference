@@ -3,7 +3,7 @@ title: "Karl Schneider"
 date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "AVI Instructor"
-bg_image : "images/bg/cta-bg.jpg"
+bg_image : "images/bg/cta-bg.png"
 image : "images/teams/s-karl.png"
 designation : "Big Bosch"
 email : "karl.schneider@us.bosch.com"

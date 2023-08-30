@@ -1,8 +1,10 @@
 // Navigation Styles
 .navbar-brand {
+  color: $secondary-color;
   font-size: 28px;
   font-weight: 700;
-  color: $secondary-color;
+  height: auto;
+  width: 202px;
 }
 
 .main-nav {

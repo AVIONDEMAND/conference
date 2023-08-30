@@ -1,166 +1,294 @@
 ################################# Schedule ############################
 schedule:
-  enable : false
+  enable : true
   title_outline : "schedule"
   title : "Course Schedule"
-  content : "Action packed with just enough space to give you a chance to spend time on the beach!"
+  content : "Action packed with just enough space to give you a chance to spend time on the beach! Subject to change based on class registration."
   schedule_tab:
     ################# tab item loop ################
-    - title : "Day 1"
-      date_time : "11 Jan, 2024 [08.00am - 05.00pm]"
-      schedule_items:
-        # schedule loop item
-        - time : "9.00am"
-          image : "images/about/electric_shop.png"
-          content : "
-
-          ### Creating a Business Model for Electric Vehicle Service
-
-          ###### By Bill Haas
-
-          Management
-          "
-
-        # schedule loop item
-        - time : "9.00am"
-          image : "images/about/can.png"
-          content : "
-
-          ### F-CAN Networking & Communication
-
-          ###### By Ryan Kooiman
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "9.00am"
-          image : "images/about/adas.png"
-          content : "
-
-          ### Advanced Driver Assistance Systems
-
-          ###### By Dave Hobbs
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "2.00pm"
-          image : "images/about/air_brake.png"
-          content : "
-
-          ### Heavy Duty Air Brakes
-
-          ###### By John Barclay
-
-          Technical
-          "
-
-    ################# tab item loop ################
-    - title : "Day 2"
+    - title : "Friday"
       date_time : "12 Jan, 2024 [08.00am - 05.00pm]"
       schedule_items:
         # schedule loop item
-        - time : "2.00pm"
-          image : "images/about/trainer.png"
+        - time : "8.00am"
+          image : "images/about/air_brake.png"
           content : "
 
-          ### Train the Trainer: EV/Hybrid program in your school
+          ### Air Brake Hands-On
 
-          ###### By Bill Haas
+          ###### Part 1
 
-          Management
+          Heavy Duty
           "
 
         # schedule loop item
-        - time : "9.00am"
-          image : "images/about/air_con.png"
+        - time : "8.00am"
+          image : "images/about/adas.png"
           content : "
 
-          ### Electric A/C Compressors
+          ### Bosch ADAS
 
-          ###### By Mark DeKoster
+          ###### Part 1
 
           Technical
           "
 
         # schedule loop item
-        - time : "9.00am"
-          image : "images/about/electric.png"
+        - time : "8.00am"
+          image : "images/about/electric_shop.png"
           content : "
 
-          ### Electric Tips & Tricks
+          ### Ford Lightning EV Leading Technology
 
-          ###### By John Barclay
-
-          Technical
-          "
-
-    ################# tab item loop ################
-    - title : "Day 3"
-      date_time : "13 Jan ,2024 [08.00am - 05.00pm]"
-      schedule_items:
-        # schedule loop item
-        - time : "9.00am"
-          image : "images/about/sustainability.png"
-          content : "
-
-          ### Industry Insights Panel: Sustainability
-
-          ###### By The Group
-
-          Industry
-          "
-
-        # schedule loop item
-        - time : "9.00am"
-          image : "images/about/scan.png"
-          content : "
-
-          ### Dollars in Diagnostics: Lab Scope
-
-          ###### By Dave Hobbs
+          ###### 4 Hours
 
           Technical
           "
 
         # schedule loop item
-        - time : "9.00am"
+        - time : "8.00am"
           image : "images/about/emissions.png"
           content : "
 
-          ### Heavy Duty Emission Systems
+          ### Cummins 6.7 Diesel
 
-          ###### By Tom Rayk
+          ###### Part 1 
+
+          Heavy Duty
+          "
+
+        # schedule loop item
+        - time : "8.00am"
+          image : "images/about/electric.png"
+          content : "
+
+          ### Scan Tool Dollar & Diagnostics
+
+          ###### 4 Hours
 
           Technical
           "
 
         # schedule loop item
-        - time : "2.00pm"
+        - time : "8.00am"
+          image : "images/about/electric_shop.png"
+          content : "
+
+          ### Service Advisor Training
+
+          ###### Part 1
+
+          Service
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/air_brake.png"
+          content : "
+
+          ### Air Brake Hands-On
+
+          ###### Part 2
+
+          Heavy Duty
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/adas.png"
+          content : "
+
+          ### Bosch ADAS
+
+          ###### Part 2
+
+          Technical
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/electric_shop.png"
+          content : "
+
+          ### Chevy Bolt Technology
+
+          ###### 4 Hours
+
+          Technical
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/emissions.png"
+          content : "
+
+          ### Cummins 6.7 Diesel
+
+          ###### Part 2
+
+          Heavy Duty
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/electric.png"
+          content : "
+
+          ### Lab Scope Dollar & Diagnostics
+
+          ###### 4 Hours
+
+          Technical
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/electric_shop.png"
+          content : "
+
+          ### Service Advisor Training
+
+          ###### Part 2
+
+          Service
+          "
+
+    ################# tab item loop ################
+    - title : "Saturday"
+      date_time : "13 Jan, 2024 [08.00am - 05.00pm]"
+      schedule_items:
+        # schedule loop item
+        - time : "8.00am"
+          image : "images/about/can.png"
+          content : "
+
+          ### CAN & F CAN
+
+          ###### Part 1
+
+          Technical
+          "
+
+        # schedule loop item
+        - time : "8.00am"
           image : "images/about/profit.png"
           content : "
 
-          ### What's Wearing Down Your Profits?
+          ### Creating a Business Model for EV Service
 
-          ###### By Frank Leutz
+          ###### 4 Hours
+
+          Management
+          "
+
+        # schedule loop item
+        - time : "8.00am"
+          image : "images/about/air_con.png"
+          content : "
+
+          ### EV A/C Systems & Compressors
+
+          ###### Part 1
+
+          Technical
+          "
+
+        # schedule loop item
+        - time : "8.00am"
+          image : "images/about/emissions.png"
+          content : "
+
+          ### HD DPF, EGR, & SCR Systems
+
+          ###### Part 1
+
+          Technical
+          "
+
+        # schedule loop item
+        - time : "8.00am"
+          image : "images/about/electric.png"
+          content : "
+
+          ### Ignition System Dollars & Diagnostics
+
+          ###### 4 Hours
+
+          Technical
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/can.png"
+          content : "
+
+          ### CAN & F CAN
+
+          ###### Part 2
+
+          Technical
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/trainer.png"
+          content : "
+
+          ### Courtroom Diagnostics: Thermal Events, Accidents, & Lawsuits
+
+          ###### 4 Hours
+
+          Techinical
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/air_con.png"
+          content : "
+
+          ### EV A/C Systems & Compressors
+
+          ###### Part 2
+
+          Technical
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/emissions.png"
+          content : "
+
+          ### HD DPF, EGR, & SCR Systems
+
+          ###### Part 2
+
+          Heavy Duty
+          "
+
+        # schedule loop item
+        - time : "1.00pm"
+          image : "images/about/profit.png"
+          content : "
+
+          ### X, Y, Z's of Hiring
+
+          ###### 4 Hours
 
           Management
           "
 
     ################# tab item loop ################
-    - title : "Day 4"
+    - title : "Sunday"
       date_time : "14 Jan ,2024 [08.00am - 05.00pm]"
       schedule_items:
         # schedule loop item
-        - time : "9.00am"
+        - time : "8.00am"
           image : "images/about/sustainability.png"
           content : "
 
-          ### Train the Trainer: Sustainability
+          ### Train the Trainer: Establishing an EV/Hybrid Program
 
-          ###### By AVI
+          ###### 4 Hours
 
-          Technical
+          Industry
           "

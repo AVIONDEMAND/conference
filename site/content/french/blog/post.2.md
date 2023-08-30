@@ -4,7 +4,7 @@ date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "this is meta description"
 # page title backgrount image
-bg_image : "images/bg/cta-bg.jpg"
+bg_image : "images/bg/cta-bg.png"
 # post thumb
 image : "images/blog/blog-1.jpg"
 # author

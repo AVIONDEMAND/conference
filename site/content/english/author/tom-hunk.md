@@ -1,6 +1,6 @@
 ---
 title: "Tom Hunk"
-bg_image : "images/bg/cta-bg.jpg"
+bg_image : "images/bg/cta-bg.png"
 # portrait
 image: ""
 # email

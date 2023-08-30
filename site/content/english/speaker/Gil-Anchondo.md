@@ -3,7 +3,7 @@ title: "Gil Anchondo"
 date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "AVI Instructor"
-bg_image : "images/bg/cta-bg.jpg"
+bg_image : "images/bg/cta-bg.png"
 image : "images/teams/s-gil.png"
 designation : "Picasso"
 email : "ganchondo@auto-video.com"
