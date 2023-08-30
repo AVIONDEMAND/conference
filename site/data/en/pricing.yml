@@ -13,6 +13,26 @@ pricing:
   content : "Intersection of education & entertainment."
   pricing_table:
     # pricing table loop
+    - title : "VIP Pass"
+      style : "2"
+      price : "$2400"
+      icon : "tf-ion-settings"
+      bg_image : "images/bg/day.png"
+      services:
+        - "Airfare ($600 limit)"
+        - "3 Night Hotel Reservation"
+        - "Transportation to/from Airport"
+        - "2 Full Days of Classes"
+        - "Industry Panel"
+        - "Opening Night Reception"
+        - "Breakfast & Lunch, Friday & Saturday"
+        - "Closing Night Dinner & Event"
+        - "Certificate"
+      button:
+        label : "Get now"
+        link : "#"
+
+    # pricing table loop
     - title : "Tuition Pass"
       style : "2"
       price : "$600"
@@ -20,12 +40,11 @@ pricing:
       bg_image : "images/bg/all_access.png"
       services:
         - "2 Full Days of Classes"
-        - "Breakfast & Lunch, Friday & Saturday"
-        - "Certificate"
-        - "Closing Night Dinner & Event"
-        - "Gift Bag"
         - "Industry Panel"
         - "Opening Night Reception"
+        - "Breakfast & Lunch, Friday & Saturday"
+        - "Closing Night Dinner & Event"
+        - "Certificate"
       button:
         label : "Get now"
         link : "#"
@@ -37,17 +56,16 @@ pricing:
       icon : "tf-ion-android-car"
       bg_image : "images/bg/spouse.png"
       services:
+        - "Off-site Excursions"
+        - "Industry Panel"
+        - "Opening Night Reception"
         - "Breakfast & Lunch, Friday & Saturday"
         - "Closing Night Dinner & Event"
-        - "Gift Bag"
-        - "Industry Panel"
-        - "Off-site Excursions"
-        - "Opening Night Reception"
       button:
         label : "Get now"
         link : "#"
 
 ############################## Event ##############################
 event:
-  enable : true
+  enable : false
   # event content comes from "homepage.yml" file

@@ -1,10 +1,10 @@
 ############################# Banner ################################
 banner:
   enable : true
-  title : "Advanced <br> Training <br> for the <br> Automotive <br> Professional"
+  title : "Expert <br> Training <br> for the <br> Automotive <br> Professional"
   bg_image: "images/banner/banner-2.png"
-  bg_video: "JmEEjJv4NzY"
-  date_time : "January 11th - 14th 2024"
+  bg_video: "rV_bHArzaqI"
+  date_time : "January 12th - 14th 2024"
   button:
     enable : "Register Now"
     label : "Register Now"
@@ -17,17 +17,17 @@ timer:
   # set timer
   year: "2024"
   month: "01"
-  day: "11"
+  day: "12"
   hour: "08"
 
 ############################## Event ##############################
 event:
   enable : true
   title_outline : "event"
-  title : "Get Your Hands on Cutting-Edge Training Aids"
+  title : "Hands-on Cutting Edge Training"
   image_back : "images/about/h1-gallery-img-7.png"
   image_front : "images/about/main-home-img-1.png"
-  content : "AVI has provided the Group Training Academy Conference with unparalleled training aids to teach technicians real world techniques. Experience the best Hands-On Automotive Technician training in the world with our Heavy Duty Air Brake Training Aid, keep cool with the Chillinator, our newest electric air conditioning training aid, or build confidence while learning the intricacies of Electric Vehicles with EVa, the EV training aid."
+  content : "Experience the best in hands-on, real world training with AVI's unparalleled training aids. The 2024 AVI Conference will have EVa, the electric vehicle training aid at select courses. Keep cool with the Chillinator, our newest electric air conditioning training aid, or learn the entire Air Brakes System with the Heavy Duty Air Brakes Training Aid."
   button:
     enable : true
     label : "Discover More"
@@ -37,7 +37,7 @@ event:
 cta:
   enable : true
   subtitle : "Timing belt a turning, don't get caught without a spot!"
-  title : "Meet the best **automotive educators** <br> & industry partners in a unique **4-day** experience."
+  title : "Meet the best **automotive educators** <br> & industry partners in a **unique** experience."
   image : "images/banner/rev-slider-09.png"
   button:
     enable : true
@@ -46,7 +46,7 @@ cta:
 
 ############################# Feature ###########################
 feature:
-  enable: true
+  enable: false
   feature_item:
     # feature item loop
     - name : "Rev your Business"
@@ -65,7 +65,7 @@ feature:
 
 ####################### Schedule #############################
 schedule:
-  enable : false
+  enable : true
   # schedule data comes from "schedule.yml" file
 
 ####################### Pricing #############################
@@ -83,7 +83,7 @@ speaker:
 
 ######################### Sponsor ############################
 sponsor:
-  enable : true
+  enable : false
   title_outline : "Sponsors"
   title : "Special Thanks to our Amazing Partners"
   sponsor_group:
@@ -91,8 +91,8 @@ sponsor:
     - title : "Prime Sponsors"
       sponsor:
         # sponsor loop
-        - logo : "images/clients/avi.png"
-          link : "https://aviondemand.com/"
+        - logo : "images/clients/nexus.png"
+          link : "https://www.nexusautomotiveinternational.eu/"
 
         # sponsor loop
         - logo : "images/clients/apsg.png"
@@ -122,7 +122,7 @@ venue:
   enable : true
   title : "Venue"
   image : "images/bg/venue.png"
-  date : "11th - 14th January, 2024"
+  date : "12th - 14th January, 2024"
   location : "17260 Harbour Pointe Dr., Fort Myers <br>Florida 33908, United States"
   button:
     enable : true

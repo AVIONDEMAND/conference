@@ -55,12 +55,17 @@ link = "plugins/google-map/map.js"
   weight = 3
 
   [[menu.main]]
-  weight = 4
-  name = "Pages"
   hasChildren = true
+  name = "Event"
+  weight = 4
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 5
 
     [[menu.main]]
-    parent = "Pages"
+    parent = "Event"
     name = "Tickets"
     URL = "pricing"
 
@@ -70,20 +75,10 @@ link = "plugins/google-map/map.js"
 #    URL = "blog"
 
     [[menu.main]]
-    parent = "Pages"
-    name = "Schedule"
-    URL = "schedule"
-
-    [[menu.main]]
-    parent = "Pages"
+    parent = "Event"
     name = "FAQ"
     URL = "faq"
     
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 5
-
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
@@ -102,8 +97,8 @@ search = false
 
 # Preloader
 [params.preloader]
-enable = true
-preloader = "png" # use jpg, png, svg or gif format.
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
@@ -141,8 +136,12 @@ link = "https://twitter.com/automotivevideo"
 icon = "tf-ion-social-linkedin"
 link = "https://www.linkedin.com/company/avi-automotive-video-innovations-llc/"
 
+[[params.social]]
+icon = "tf-ion-email"
+link = "mailto:support@aviconference.com"
+
 #[[params.social]]
-#icon = "tf-ion-social-pinterest"
+#icon = "tf-ion-map"
 #link = "#"
 
 #[[params.social]]
@@ -158,9 +157,9 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # footer content
-footer_content = "Send your best technician to premiere hands-on, expert-led training!"
+footer_content = "Send your technicians to hands-on, expert-led training!"
 # copyright
-copyright = "Powered by AVI"
+copyright = "800 718-7246"
 
 
 ################################### French language #####################################
@@ -173,4 +172,4 @@ home = "Accueil"
 # footer content
 footer_content = "Rejoignez la première entreprise de formation automobile pour une formation sur place dirigée par des experts!"
 # copyright
-copyright = "Powered by AVI"
+copyright = "800 718-7246"
