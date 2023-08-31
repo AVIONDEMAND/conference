@@ -66,19 +66,24 @@ link = "plugins/google-map/map.js"
 
     [[menu.main]]
     parent = "Event"
+    name = "FAQ"
+    URL = "faq"
+
+    [[menu.main]]
+    parent = "Event"
     name = "Tickets"
     URL = "pricing"
+
+    [[menu.main]]
+    parent = "Event"
+    name = "Schedule"
+    URL = "schedule"
 
 #    [[menu.main]]
 #    parent = "Pages"
 #    name = "Blog"
 #    URL = "blog"
 
-    [[menu.main]]
-    parent = "Event"
-    name = "FAQ"
-    URL = "faq"
-    
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
@@ -157,7 +162,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # footer content
-footer_content = "Send your technicians to hands-on, expert-led training!"
+footer_content = "Send all your technicians to hands-on, expert-led training!"
 # copyright
 copyright = "800 718-7246"
 
