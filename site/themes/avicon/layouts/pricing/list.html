@@ -39,4 +39,10 @@
 {{ end }}
 <!-- /event -->
 
+<!-- venue  -->
+{{ if $data.pricing.venue_ext.enable }}
+{{ partial "venue.html" . }}
+{{ end }}
+<!-- /venue -->
+
 {{ end }}

@@ -16,8 +16,8 @@ pricing:
     - title : "VIP Pass"
       style : "2"
       price : "$2400"
-      icon : "tf-ion-settings"
-      bg_image : "images/bg/day.png"
+      icon : "tf-ion-film-marker"
+      bg_image : "images/bg/vip.png"
       services:
         - "Airfare ($600 limit)"
         - "3 Night Hotel Reservation"
@@ -53,7 +53,7 @@ pricing:
     - title : "Spouse Pass"
       style : "3"
       price : "$400"
-      icon : "tf-ion-android-car"
+      icon : "tf-ion-ios-rose"
       bg_image : "images/bg/spouse.png"
       services:
         - "Off-site Excursions"
@@ -66,6 +66,6 @@ pricing:
         link : "#"
 
 ############################## Event ##############################
-event:
-  enable : false
+venue_ext:
+  enable : true
   # event content comes from "homepage.yml" file

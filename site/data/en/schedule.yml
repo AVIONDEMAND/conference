@@ -6,12 +6,28 @@ schedule:
   content : "Action packed with just enough space to give you a chance to spend time on the beach! Subject to change based on class registration."
   schedule_tab:
     ################# tab item loop ################
+    - title : "Thursday"
+      date_time : "11 Jan, 2024 [08.00am - 05.00pm]"
+      schedule_items:
+        # schedule loop item
+        - time : "8.00am"
+          image : "images/schedule/air_brake.png"
+          content : "
+
+          ### Air Brake Hands-On
+
+          ###### Part 1
+
+          Heavy Duty
+          "
+
+    ################# tab item loop ################
     - title : "Friday"
       date_time : "12 Jan, 2024 [08.00am - 05.00pm]"
       schedule_items:
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/air_brake.png"
+          image : "images/schedule/air_brake.png"
           content : "
 
           ### Air Brake Hands-On
@@ -23,10 +39,10 @@ schedule:
 
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/adas.png"
+          image : "images/schedule/bosch_adas.png"
           content : "
 
-          ### Bosch ADAS
+          ### ADAS
 
           ###### Part 1
 
@@ -35,7 +51,7 @@ schedule:
 
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/electric_shop.png"
+          image : "images/schedule/lightning.png"
           content : "
 
           ### Ford Lightning EV Leading Technology
@@ -47,19 +63,19 @@ schedule:
 
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/emissions.png"
+          image : "images/schedule/cummins.png"
           content : "
 
           ### Cummins 6.7 Diesel
 
           ###### Part 1 
 
-          Heavy Duty
+          Diesel
           "
 
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/electric.png"
+          image : "images/schedule/scan.png"
           content : "
 
           ### Scan Tool Dollar & Diagnostics
@@ -71,7 +87,7 @@ schedule:
 
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/electric_shop.png"
+          image : "images/schedule/electric_shop.png"
           content : "
 
           ### Service Advisor Training
@@ -83,7 +99,7 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/air_brake.png"
+          image : "images/schedule/air_brake.png"
           content : "
 
           ### Air Brake Hands-On
@@ -95,10 +111,10 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/adas.png"
+          image : "images/schedule/bosch_adas.png"
           content : "
 
-          ### Bosch ADAS
+          ### ADAS
 
           ###### Part 2
 
@@ -107,7 +123,7 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/electric_shop.png"
+          image : "images/schedule/chevy_bolt.png"
           content : "
 
           ### Chevy Bolt Technology
@@ -119,19 +135,19 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/emissions.png"
+          image : "images/schedule/cummins.png"
           content : "
 
           ### Cummins 6.7 Diesel
 
           ###### Part 2
 
-          Heavy Duty
+          Diesel
           "
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/electric.png"
+          image : "images/schedule/electric.png"
           content : "
 
           ### Lab Scope Dollar & Diagnostics
@@ -143,7 +159,7 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/electric_shop.png"
+          image : "images/schedule/electric_shop.png"
           content : "
 
           ### Service Advisor Training
@@ -159,7 +175,7 @@ schedule:
       schedule_items:
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/can.png"
+          image : "images/schedule/can.png"
           content : "
 
           ### CAN & F CAN
@@ -171,7 +187,7 @@ schedule:
 
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/profit.png"
+          image : "images/schedule/profit.png"
           content : "
 
           ### Creating a Business Model for EV Service
@@ -183,7 +199,7 @@ schedule:
 
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/air_con.png"
+          image : "images/schedule/ac_compressor.png"
           content : "
 
           ### EV A/C Systems & Compressors
@@ -195,10 +211,10 @@ schedule:
 
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/emissions.png"
+          image : "images/schedule/emissions.png"
           content : "
 
-          ### HD DPF, EGR, & SCR Systems
+          ### DPF, EGR, & SCR Systems
 
           ###### Part 1
 
@@ -207,7 +223,7 @@ schedule:
 
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/electric.png"
+          image : "images/schedule/plugs.png"
           content : "
 
           ### Ignition System Dollars & Diagnostics
@@ -219,7 +235,7 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/can.png"
+          image : "images/schedule/can.png"
           content : "
 
           ### CAN & F CAN
@@ -231,7 +247,7 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/trainer.png"
+          image : "images/schedule/court.png"
           content : "
 
           ### Courtroom Diagnostics: Thermal Events, Accidents, & Lawsuits
@@ -243,7 +259,7 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/air_con.png"
+          image : "images/schedule/ac_compressor.png"
           content : "
 
           ### EV A/C Systems & Compressors
@@ -255,10 +271,10 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/emissions.png"
+          image : "images/schedule/emissions.png"
           content : "
 
-          ### HD DPF, EGR, & SCR Systems
+          ### DPF, EGR, & SCR Systems
 
           ###### Part 2
 
@@ -267,7 +283,7 @@ schedule:
 
         # schedule loop item
         - time : "1.00pm"
-          image : "images/about/profit.png"
+          image : "images/schedule/handshake.png"
           content : "
 
           ### X, Y, Z's of Hiring
@@ -283,7 +299,7 @@ schedule:
       schedule_items:
         # schedule loop item
         - time : "8.00am"
-          image : "images/about/sustainability.png"
+          image : "images/schedule/trainer.png"
           content : "
 
           ### Train the Trainer: Establishing an EV/Hybrid Program

@@ -4,29 +4,27 @@ banner:
   title : "Expert <br> Training <br> for the <br> Automotive <br> Professional"
   bg_image: "images/banner/banner-2.png"
   bg_video: "rV_bHArzaqI"
-  date_time : "January 12th - 14th 2024"
+  date_time : "January 11th - 14th 2024"
   button:
     enable : "Register Now"
     label : "Register Now"
     link : "pricing"
 
-########################## Timer #################################
-timer:
-  enable : true
-  title : "**Count the days** <br> until conference starts"
-  # set timer
-  year: "2024"
-  month: "01"
-  day: "12"
-  hour: "08"
+############################### Blog ######################################
+blog:
+  enable : false
+  title_outline : "News"
+  title : "Latest News"
+  content : "As the gear turns. If it's moving the spindle you'll find it here."
+  # blog content comes from "content/blog" folder
 
 ############################## Event ##############################
 event:
   enable : true
   title_outline : "event"
   title : "Hands-on Cutting Edge Training"
-  image_back : "images/about/h1-gallery-img-7.png"
-  image_front : "images/about/main-home-img-1.png"
+  image_back : "images/about/event_back.png"
+  image_front : "images/about/event_front.png"
   content : "Experience the best in hands-on, real world training with AVI's unparalleled training aids. The 2024 AVI Conference will have EVa, the electric vehicle training aid at select courses. Keep cool with the Chillinator, our newest electric air conditioning training aid, or learn the entire Air Brakes System with the Heavy Duty Air Brakes Training Aid."
   button:
     enable : true
@@ -63,15 +61,15 @@ feature:
       icon : "tf-ion-wrench"
       content : "Learn about the latest industry trends. Meet with other shop owners and technicians to exchange ideas and craft new friendships."
 
-####################### Schedule #############################
-schedule:
-  enable : true
-  # schedule data comes from "schedule.yml" file
-
 ####################### Pricing #############################
 pricing:
   enable : true
   # pricing data comes from "pricing.yml" file
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
 
 ########################## Speaker ##########################
 speaker:
@@ -117,22 +115,37 @@ sponsor:
     label : "apply now"
     link : "#"
 
+########################## Timer #################################
+timer:
+  enable : true
+  title : "**Count the days** <br> until conference starts"
+  # set timer
+  year: "2024"
+  month: "01"
+  day: "11"
+  hour: "08"
+
 ################################ Venue ########################
 venue:
   enable : true
   title : "Venue"
   image : "images/bg/venue.png"
-  date : "12th - 14th January, 2024"
+  date : "11th - 14th January, 2024"
   location : "17260 Harbour Pointe Dr., Fort Myers <br>Florida 33908, United States"
   button:
     enable : true
     label : "View Map location"
     link : "contact"
 
-############################### Blog ######################################
-blog:
-  enable : false
-  title_outline : "News"
-  title : "Latest News"
-  content : "As the gear turns. If it's moving the spindle you'll find it here."
-  # blog content comes from "content/blog" folder
+############################## Venue Ext ##############################
+venue_ext:
+  enable : true
+  title_outline : "Venue"
+  title : "Certify & Chill"
+  image_back : "images/about/venue_back.png"
+  image_front : "images/about/venue_front.png"
+  content : "Space goes fast, get your room today, and make sure to use our group rate when booking!"
+  button:
+    enable : true
+    label : "Book a Room"
+    link : "https://www.marriott.com/en-us/hotels/RSWSB-marriott-sanibel-harbour-resort-and-spa/overview/?maps"
