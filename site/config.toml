@@ -123,8 +123,8 @@ mailchimp_form_name = "" # replace this code with yours
 [params.map]
 enable = true
 gmap_api = ""
-map_latitude = "20.489113"
-map_longitude = "-82.0131468"
+map_latitude = "26.489147"
+map_longitude = "-82.011580"
 map_marker = "images/marker.png"
 
 
