@@ -48,7 +48,7 @@ pricing:
         - "Certificate"
       button:
         label : "Get now"
-        link : "https://book.stripe.com/8wM4i1gb76o071C3ce"
+        link : "https://book.stripe.com/4gw29T2khfYA99KeUY"
 
     # pricing table loop
     - title : "Tuition Pass"
@@ -66,17 +66,6 @@ pricing:
       button:
         label : "Get now"
         link : "https://book.stripe.com/8wM4i1gb76o071C3ce"
-
-    # pricing table loop
-    - title : "Spouse Pass"
-      style : "3"
-      price : "$400"
-      icon : "tf-ion-ios-rose"
-      bg_image : "images/bg/spouse.png"
-      services:
-        - "Off-site Excursions"
-        - "Industry Panel"
-        - "Opening Night Reception"
 
     # pricing table loop
     - title : "Spouse Pass"
