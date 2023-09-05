@@ -299,7 +299,7 @@ schedule:
       schedule_items:
         # schedule loop item
         - time : "8.00am"
-          image : "images/schedule/trainer.png"
+          image : "images/schedule/class.png"
           content : "
 
           ### Train the Trainer: Establishing an EV/Hybrid Program

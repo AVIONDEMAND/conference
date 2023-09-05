@@ -30,7 +30,25 @@ pricing:
         - "Certificate"
       button:
         label : "Get now"
-        link : "#"
+        link : "https://book.stripe.com/00gg0J4sph2Edq05kn"
+
+    # pricing table loop
+    - title : "Tuition & Hotel Package"
+      style : "2"
+      price : "$1700"
+      icon : "tf-ion-ios-home"
+      bg_image : "images/bg/package.png"
+      services:
+        - "2 Full Days of Classes"
+        - "Hotel Accomodations Included"
+        - "Industry Panel"
+        - "Opening Night Reception"
+        - "Breakfast & Lunch, Friday & Saturday"
+        - "Closing Night Dinner & Event"
+        - "Certificate"
+      button:
+        label : "Get now"
+        link : "https://book.stripe.com/8wM4i1gb76o071C3ce"
 
     # pricing table loop
     - title : "Tuition Pass"
@@ -47,7 +65,18 @@ pricing:
         - "Certificate"
       button:
         label : "Get now"
-        link : "#"
+        link : "https://book.stripe.com/8wM4i1gb76o071C3ce"
+
+    # pricing table loop
+    - title : "Spouse Pass"
+      style : "3"
+      price : "$400"
+      icon : "tf-ion-ios-rose"
+      bg_image : "images/bg/spouse.png"
+      services:
+        - "Off-site Excursions"
+        - "Industry Panel"
+        - "Opening Night Reception"
 
     # pricing table loop
     - title : "Spouse Pass"
@@ -63,7 +92,7 @@ pricing:
         - "Closing Night Dinner & Event"
       button:
         label : "Get now"
-        link : "#"
+        link : "https://book.stripe.com/4gwbKt5wtfYA5XyaEF"
 
 ############################## Event ##############################
 venue_ext:
