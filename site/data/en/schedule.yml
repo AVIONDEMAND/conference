@@ -2,8 +2,8 @@
 schedule:
   enable : true
   title_outline : "schedule"
-  title : "Course Schedule"
-  content : "Action packed with just enough space to give you a chance to spend time on the beach! Subject to change based on class registration."
+  title : "Subject to Change"
+  content : ""
   schedule_tab:
     ################# tab item loop ################
     - title : "Thursday"

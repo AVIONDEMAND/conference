@@ -1,7 +1,6 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
-body{
+
+body {
   font-family: $base-font;
   font-size: $base-font-size;
   font-weight: 400;
@@ -45,8 +44,7 @@ h6, .h6 {
   color: $black;
 }
 
-
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
   color: inherit;
 }
 
@@ -58,7 +56,6 @@ h2, .h2 {
   font-size: 36px;
 }
 
-
 h3, .h3 {
   font-size: 26px;
 }
@@ -67,39 +64,36 @@ h4, .h4 {
   font-size: 22px;
 }
 
-
 h5, .h5 {
   font-size: 18px;
 }
 
 h6, .h6 {
   font-size: 16px;
-  
 }
 
-p{
+p {
   line-height: 28px;
 }
 
-
-.lead{
+.lead {
   line-height: 35px;
 }
 
-
-.text-secondary{
+.text-secondary {
   color: $secondary-color!important;
 }
-.text-primary{
+
+.text-primary {
   color: $primary-color!important;
 }
 
-.subtitle{
+.subtitle {
   font-family: $base-font;
   text-transform: capitalize;
 }
 
-.lg-title{
+.lg-title {
   font-size:62px;
   text-transform: uppercase;
   letter-spacing: 0.5px;

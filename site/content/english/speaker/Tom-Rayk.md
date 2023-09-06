@@ -5,7 +5,7 @@ draft: false
 description: "AVI Instructor"
 bg_image : "images/bg/cta-bg.png"
 image : "images/teams/s-tom.png"
-designation : "Instructor to Instructors"
+designation : "click name for bio"
 email : "trayk@auto-video.com"
 type : "speaker"
 social:

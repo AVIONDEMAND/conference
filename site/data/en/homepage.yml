@@ -28,13 +28,13 @@ event:
   content : "Experience the best in hands-on, real world training with AVI's unparalleled training aids. The 2024 AVI Conference will have EVa, the electric vehicle training aid at select courses. Keep cool with the Chillinator, our newest electric air conditioning training aid, or learn the entire Air Brakes System with the Heavy Duty Air Brakes Training Aid."
   button:
     enable : true
-    label : "Discover More"
+    label : "Event Schedule"
     link : "resources/schedule.pdf"
 
 ######################### Call to Action #########################
 cta:
   enable : true
-  subtitle : "Timing belt a turning, don't get caught without a spot!"
+  subtitle : ""
   title : "Meet the best **automotive educators** <br> & industry partners in a **unique** experience."
   image : "images/banner/rev-slider-09.png"
   button:

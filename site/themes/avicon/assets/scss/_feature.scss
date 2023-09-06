@@ -1,8 +1,8 @@
-.section-feature{
+.section-feature {
 
 }
 
-.feature-box{
+.feature-box {
 	padding: 40px;
 	background: #f8f9fa;
 	-webkit-transition: all .35s ease;
@@ -11,46 +11,50 @@
 	     -o-transition: all .35s ease;
 	        transition: all .35s ease;
 
-	i{
+	i {
 		font-size: 60px;
 	}
 
-	.divider{
+	.divider {
 		width: 45px;
 		margin-bottom: 20px;
 		background: $secondary-color;
 	}
 
-	&:hover{
+	&:hover {
 		background: $ternary-color;
-		i{
+		i {
 			color: $white;
 		}
-		h4{
+
+		h4 {
 			color: $white;
 		}
-		p{
+
+		p {
 			color: rgba(255,255,255,.8);
 		}
 
-		.divider{
+		.divider {
 			background: $border-color;
 		}
 	}
 
-	&.active{
+	&.active {
 		background: $secondary-color;
-		i{
+		i {
 			color: $white;
 		}
-		h4{
+
+		h4 {
 			color: $white;
 		}
-		p{
+
+		p {
 			color: rgba(255,255,255,.8);
 		}
 
-		.divider{
+		.divider {
 			background: $border-color;
 		}
 	}
@@ -58,13 +62,14 @@
 
 }
 
-.pl-90{
+.pl-90 {
 	padding-left: 150px;
 }
-.heading h2{
+
+.heading h2 {
 	position: relative;
 
-	&:before{
+	&:before {
 		position: absolute;
 		content: "";
 		left: -130px;
@@ -75,11 +80,11 @@
 	}
 }
 
-.bg-red{
+.bg-red {
 	background: #f87c57;
 }
 
-.feature-item{
+.feature-item {
 	padding: 40px;
 	background: #f8f9fa;
 	-webkit-transition: all .35s ease;
@@ -88,36 +93,34 @@
 	     -o-transition: all .35s ease;
 	        transition: all .35s ease;
 
-	i{
+	i {
 		font-size: 60px;
 		color: $white;
 	}
-	h4{
+
+	h4 {
 		color: $white;
 	}
-	p{
+
+	p {
 		color: rgba(255,255,255,.7);
 	}
 
 }
 
-
-
-@include mobile{
+@include mobile {
 	.pl-90 {
 	    padding-left:0px;
 	}
 }
 
-
-@include mobile-xs{
+@include mobile-xs {
 	.pl-90 {
 	    padding-left:0px;
 	}
 }
 
-
-@include tablet{
+@include tablet {
 
 	.pl-90 {
 	    padding-left:0px;

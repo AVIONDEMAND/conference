@@ -5,7 +5,7 @@ draft: false
 description: "AVI Instructor"
 bg_image : "images/bg/cta-bg.png"
 image : "images/teams/s-bill.png"
-designation : "Automotive Management Expert"
+designation : "click name for bio"
 email : "billh1317@gmail.com"
 type : "speaker"
 social:
