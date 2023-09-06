@@ -5,7 +5,7 @@ draft: false
 description: "AVI Instructor"
 bg_image : "images/bg/cta-bg.png"
 image : "images/teams/s-eric.png"
-designation : "Mechanic Mogul"
+designation : "click name for bio"
 email : "emsmith@auto-video.com"
 type : "speaker"
 social:

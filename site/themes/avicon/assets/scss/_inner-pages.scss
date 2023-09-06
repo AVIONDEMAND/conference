@@ -8,7 +8,7 @@
 
 .overly{
 	position: absolute;
-	content:"";
+	content: "";
 	left: 0px;
 	top:0px;
 	width: 100%;
@@ -18,34 +18,32 @@
 }
 
 // FAQ
-
 #faqs {
-
-	h4{
+	h4 {
 		color: #444;
 	}
 }
 
 // CONTACT PAGE
-
-.text-sm-2{
+.text-sm-2 {
 	font-size: 16px;
 }
 
-.socials-links{
-	a{
+.socials-links {
+	a {
 		font-size: 18px;
 		padding: 5px 10px 0px 0px;
 	}
 }
 
-#map{
+#map {
 	min-height:550px;
 }
 
-.google-map{
+.google-map {
 	position: relative;
 }
+
 .contact-info-block {
 	position: absolute;
 	content: "";
@@ -59,20 +57,18 @@
 }
 
 // Responsive
-
-
-@include mobile{
+@include mobile {
 	.latest-blog {
 		padding-top: 100px;
 	}
 }
 
-@include mobile-xs{
+@include mobile-xs {
 	.latest-blog {
 		padding-top: 100px;
 	}
 }
-@include tablet{
+@include tablet {
 	.latest-blog {
 		padding-top: 100px;
 	}

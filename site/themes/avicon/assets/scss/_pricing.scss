@@ -1,8 +1,8 @@
-.package{
+.package {
 	text-align: center;
 	box-shadow: 0 11px 22px rgba(34,34,34,.2);
 
-	.price-header{
+	.price-header {
 		padding: 60px 0px 60px 0px;
 		background: url("../images/bg/page-header.png")no-repeat;
 		background-size: cover;
@@ -10,13 +10,13 @@
 	}
 
 	ul {
-		li{
+		li {
 			padding: 5px 0px;
 			color: $black;
 		}
 	}
 
-	.pname{
+	.pname {
 		margin: -45px auto 30px;
 		width: 50%;
 		padding: 10px;
@@ -28,44 +28,43 @@
 		position: relative;
 		z-index: 1;
 	}
-	i{
+
+	i {
 		font-size:60px;
 		color:$white;
 	}
 }
 
-.bg-orange{
+.bg-orange {
 	background: $orange;
 }
 
-.style-1{
-	.pname{
+.style-1 {
+	.pname {
 		border-color:$primary-color;
 	}
 }
 
-.style-2{
-	.pname{
+.style-2 {
+	.pname {
 		border-color:$orange;
 	}
 
-	.btn{
+	.btn {
 		border-color:$orange;
 		background: $orange;
 		color: $white;
 	}
 }
-.style-3{
-	.pname{
+
+.style-3 {
+	.pname {
 		border-color:$secondary-color;
 	}
 }
 
-
 // Pricing 
-
-
-.section-pricing{
+.section-pricing {
 	background: url("../images/banner/speakers-bg-black.png")no-repeat;
 	background-size: cover;
 }

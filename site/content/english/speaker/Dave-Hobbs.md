@@ -5,7 +5,7 @@ draft: false
 description: "AVI Instructor"
 bg_image : "images/bg/cta-bg.png"
 image : "images/teams/s-dave.png"
-designation : "Oracle @ Delphi"
+designation : "click name for bio"
 email : "david.a.hobbs@delphi.com"
 type : "speaker"
 social:

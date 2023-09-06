@@ -161,9 +161,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-# footer content
 footer_content = "Send all your technicians to hands-on, expert-led training!"
-# copyright
 copyright = "800 718-7246"
 
 
@@ -174,7 +172,5 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 home = "Accueil"
-# footer content
 footer_content = "Rejoignez la première entreprise de formation automobile pour une formation sur place dirigée par des experts!"
-# copyright
 copyright = "800 718-7246"

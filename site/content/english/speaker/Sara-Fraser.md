@@ -5,7 +5,7 @@ draft: false
 description: "AVI Instructor"
 bg_image : "images/bg/cta-bg.png"
 image : "images/teams/s-sara.png"
-designation : "Social Savant"
+designation : "click name for bio"
 email : "sfraser0815@gmail.com"
 type : "speaker"
 social:

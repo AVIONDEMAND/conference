@@ -5,7 +5,7 @@ draft: false
 description: "AVI Instructor"
 bg_image : "images/bg/cta-bg.png"
 image : "images/teams/s-markh.png"
-designation : "Dr. Diagnostic"
+designation : "click name for bio"
 email : "mhowell@auto-video.com"
 type : "speaker"
 social:

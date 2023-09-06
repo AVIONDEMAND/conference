@@ -2,7 +2,7 @@
 timer:
   enable : true
   title : "**Count the day** <br>until conference start"
-  content : "Our intensive 4-day automotive conference will teach you the specific steps and proven systems you need to implement and grow your business. We hope you’ll join us!"
+  content : "Our intensive 4-day automotive conference will teach you the specific steps and proven systems you need to implement and grow your business. We hope you'll join us!"
   # timer value comes from "homepage.yml" file
 
 ################################# Pricing ##########################
@@ -10,7 +10,7 @@ pricing:
   enable : true
   title_outline : "Price"
   title : "Get your Ticket to Paradise"
-  content : "Intersection of education & entertainment."
+  content : ""
   pricing_table:
     # pricing table loop
     - title : "VIP Pass"

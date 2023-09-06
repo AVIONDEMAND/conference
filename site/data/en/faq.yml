@@ -6,7 +6,7 @@ faq:
   faq_item:
     # faq item loop
     - title : "What are my accomodation options?"
-      content : "Enjoy the incredible view of San Carlos Bay while you stay at the Marriott Sanibel Harbor Resort & Spa! Rooms sell out every year so be sure to get yours while you can. Besure to let the hotel know about *Group Rate Identifier*"
+      content : "Enjoy the incredible view of San Carlos Bay while you stay at the Marriott Sanibel Harbor Resort & Spa! Rooms sell out every year so be sure to get yours while you can. Besure to let the hotel know about *Group Rate Identifier*. December 11th, 2023 is the last day to make hotel reservations if you want to take advantage of our group rate."
 
     # faq item loop
     - title : "Which payment methods are avaliable?"
@@ -18,7 +18,7 @@ faq:
 
     # faq item loop
     - title : "When does registration close?"
-      content : "December 11th, 2023 which is also the last day to make hotel reservations if you want to take advantage of our group rate."
+      content : "January 4th, 2023 is the last day to register for this years conference."
 
 ################################# Support ####################################
   support:
