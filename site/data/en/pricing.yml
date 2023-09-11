@@ -23,14 +23,15 @@ pricing:
         - "3 Night Hotel Reservation"
         - "Transportation to/from Airport"
         - "2 Full Days of Classes"
-        - "Industry Panel"
         - "Opening Night Reception"
         - "Breakfast & Lunch, Friday & Saturday"
-        - "Closing Night Dinner & Event"
-        - "Certificate"
+        - "Friday Night Dinner & Event"
+        - "Certificates"
       button:
-        label : "Get now"
-        link : "https://book.stripe.com/00gg0J4sph2Edq05kn"
+        paypal_label : "Paypal"
+        stripe_label : "Stripe"
+        paypal_link : "https://www.paypal.com/cgi-bin/webscr?business=ANDWYGACQCBE8&cmd=_xclick&amount=2400.00&item_name=VIP+Pass&currency_code=USD"
+        stripe_link : "https://book.stripe.com/00gg0J4sph2Edq05kn"
 
     # pricing table loop
     - title : "Tuition & Hotel Package"
@@ -41,14 +42,15 @@ pricing:
       services:
         - "2 Full Days of Classes"
         - "Hotel Accomodations Included"
-        - "Industry Panel"
         - "Opening Night Reception"
         - "Breakfast & Lunch, Friday & Saturday"
-        - "Closing Night Dinner & Event"
-        - "Certificate"
+        - "Friday Night Dinner & Event"
+        - "Certificates"
       button:
-        label : "Get now"
-        link : "https://book.stripe.com/4gw29T2khfYA99KeUY"
+        paypal_label : "Paypal"
+        stripe_label : "Stripe"
+        paypal_link : "https://www.paypal.com/cgi-bin/webscr?business=ANDWYGACQCBE8&cmd=_xclick&amount=1700.00&item_name=Tuition+Package&currency_code=USD"
+        stripe_link : "https://book.stripe.com/4gw29T2khfYA99KeUY"
 
     # pricing table loop
     - title : "Tuition Pass"
@@ -58,14 +60,15 @@ pricing:
       bg_image : "images/bg/all_access.png"
       services:
         - "2 Full Days of Classes"
-        - "Industry Panel"
         - "Opening Night Reception"
         - "Breakfast & Lunch, Friday & Saturday"
-        - "Closing Night Dinner & Event"
-        - "Certificate"
+        - "Friday Dinner & Event"
+        - "Certificates"
       button:
-        label : "Get now"
-        link : "https://book.stripe.com/8wM4i1gb76o071C3ce"
+        paypal_label : "Paypal"
+        stripe_label : "Stripe"
+        paypal_link : "https://www.paypal.com/cgi-bin/webscr?business=ANDWYGACQCBE8&cmd=_xclick&amount=600&item_name=Tuition+Pass&currency_code=USD"
+        stripe_link : "https://book.stripe.com/8wM4i1gb76o071C3ce"
 
     # pricing table loop
     - title : "Spouse Pass"
@@ -75,13 +78,14 @@ pricing:
       bg_image : "images/bg/spouse.png"
       services:
         - "Off-site Excursions"
-        - "Industry Panel"
         - "Opening Night Reception"
         - "Breakfast & Lunch, Friday & Saturday"
-        - "Closing Night Dinner & Event"
+        - "Friday Night Dinner & Event"
       button:
-        label : "Get now"
-        link : "https://book.stripe.com/4gwbKt5wtfYA5XyaEF"
+        paypal_label : "Paypal"
+        stripe_label : "Stripe"
+        paypal_link : "https://www.paypal.com/cgi-bin/webscr?business=ANDWYGACQCBE8&cmd=_xclick&amount=400.00&item_name=Spouse+Pass&currency_code=USD"
+        stripe_link : "https://book.stripe.com/4gwbKt5wtfYA5XyaEF"
 
 ############################## Event ##############################
 venue_ext:

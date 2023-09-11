@@ -1,46 +1,51 @@
+############################ Agenda ##################################
+agenda:
+  enable: false
+  # agenda data comes from "agenda.yml" file
+
 ############################# Banner ################################
 banner:
-  enable : true
-  title : "Expert <br> Training <br> for the <br> Automotive <br> Professional"
+  enable: true
+  title: "Expert <br> Training <br> for the <br> Automotive <br> Professional"
   bg_image: "images/banner/banner-2.png"
   bg_video: "rV_bHArzaqI"
-  date_time : "January 11th - 14th 2024"
+  date_time: "January 11th - 14th 2024"
   button:
-    enable : "Register Now"
-    label : "Register Now"
-    link : "pricing"
+    enable: "Register Now"
+    label: "Register Now"
+    link: "pricing"
 
 ############################### Blog ######################################
 blog:
-  enable : false
-  title_outline : "News"
-  title : "Latest News"
-  content : "As the gear turns. If it's moving the spindle you'll find it here."
+  enable: false
+  title_outline: "News"
+  title: "Latest News"
+  content: "As the gear turns. If it's moving the spindle you'll find it here."
   # blog content comes from "content/blog" folder
 
 ############################## Event ##############################
 event:
-  enable : true
-  title_outline : "event"
-  title : "Hands-on Cutting Edge Training"
-  image_back : "images/about/event_back.png"
-  image_front : "images/about/event_front.png"
-  content : "Experience the best in hands-on, real world training with AVI's unparalleled training aids. The 2024 AVI Conference will have EVa, the electric vehicle training aid at select courses. Keep cool with the Chillinator, our newest electric air conditioning training aid, or learn the entire Air Brakes System with the Heavy Duty Air Brakes Training Aid."
+  enable: true
+  title_outline: "event"
+  title: "Hands-on Cutting Edge Training"
+  image_back: "images/about/event_back.png"
+  image_front: "images/about/event_front.png"
+  content: "Experience the best in hands-on, real world training with AVI's unparalleled training aids. The 2024 AVI Conference will have EVa, the electric vehicle training aid at select courses. Keep cool with the Chillinator, our newest electric air conditioning training aid, or learn the entire Air Brakes System with the Heavy Duty Air Brakes Training Aid."
   button:
-    enable : true
+    enable: true
     label : "Event Schedule"
     link : "resources/schedule.pdf"
 
 ######################### Call to Action #########################
 cta:
-  enable : true
-  subtitle : ""
-  title : "Meet the best **automotive educators** <br> & industry partners in a **unique** experience."
-  image : "images/banner/rev-slider-09.png"
+  enable: true
+  subtitle: ""
+  title: "Meet the best **automotive educators** <br> & industry partners in a **unique** experience."
+  image: "images/banner/rev-slider-09.png"
   button:
-    enable : true
-    label : "Register Now"
-    link : "pricing"
+    enable: true
+    label: "Register Now"
+    link: "pricing"
 
 ############################# Feature ###########################
 feature:
@@ -63,62 +68,62 @@ feature:
 
 ####################### Pricing #############################
 pricing:
-  enable : true
+  enable: true
   # pricing data comes from "pricing.yml" file
 
 ####################### Schedule #############################
 schedule:
-  enable : true
+  enable: true
   # schedule data comes from "schedule.yml" file
 
 ########################## Speaker ##########################
 speaker:
-  enable : false
-  title_outline : "Speakers"
-  title : "Who're speaking"
-  content : "The conference is dedicated to bringing together a significant number of diverse contributions from industry leaders, providing exceptional value for students, technicians, and their vendors."
+  enable: false
+  title_outline: "Speakers"
+  title: "Who're speaking"
+  content: "The conference is dedicated to bringing together a significant number of diverse contributions from industry leaders, providing exceptional value for students, technicians, and their vendors."
   # speaker content comes from "content/speaker" folder
 
 ######################### Sponsor ############################
 sponsor:
-  enable : false
-  title_outline : "Sponsors"
-  title : "Special Thanks to our Amazing Partners"
+  enable: false
+  title_outline: "Sponsors"
+  title: "Special Thanks to our Amazing Partners"
   sponsor_group:
     ############################ sponsor group loop
-    - title : "Prime Sponsors"
+    - title: "Prime Sponsors"
       sponsor:
         # sponsor loop
-        - logo : "images/clients/nexus.png"
-          link : "https://www.nexusautomotiveinternational.eu/"
+        - logo: "images/clients/nexus.png"
+          link: "https://www.nexusautomotiveinternational.eu/"
 
         # sponsor loop
-        - logo : "images/clients/apsg.png"
-          link : "https://www.thegroupapsg.com/"
+        - logo: "images/clients/apsg.png"
+          link: "https://www.thegroupapsg.com/"
 
     ############################ sponsor group loop
-    - title : "Strategic Partners"
+    - title: "Strategic Partners"
       sponsor:
         # sponsor loop
-        - logo : "images/clients/bosch.png"
-          link : "https://www.bosch.com/products-and-services/market-specific-solutions/solutions-for-the-automotive-industry/"
+        - logo: "images/clients/bosch.png"
+          link: "https://www.bosch.com/products-and-services/market-specific-solutions/solutions-for-the-automotive-industry/"
 
         # sponsor loop
-        - logo : "images/clients/driv.png"
-          link : "https://www.drivparts.com/en-in/"
+        - logo: "images/clients/driv.png"
+          link: "https://www.drivparts.com/en-in/"
 
   # call to action in sponsor
   sponsorship:
-    enable : true
-    title : "Want to be a part of this amazing opportunity?"
+    enable: true
+    title: "Want to be a part of this amazing opportunity?"
     # button
-    label : "apply now"
-    link : "#"
+    label: "apply now"
+    link: "#"
 
 ########################## Timer #################################
 timer:
-  enable : true
-  title : "**Count the days** <br> until conference starts"
+  enable: true
+  title: "**Count the days** <br> until conference starts"
   # set timer
   year: "2024"
   month: "01"
@@ -127,25 +132,25 @@ timer:
 
 ################################ Venue ########################
 venue:
-  enable : true
-  title : "Venue"
-  image : "images/bg/venue.png"
-  date : "11th - 14th January, 2024"
-  location : "17260 Harbour Pointe Dr., Fort Myers <br>Florida 33908, United States"
+  enable: true
+  title: "Venue"
+  image: "images/bg/venue.png"
+  date: "11th - 14th January, 2024"
+  location: "17260 Harbour Pointe Dr., Fort Myers <br>Florida 33908, United States"
   button:
-    enable : true
-    label : "View Map location"
-    link : "contact"
+    enable: true
+    label: "View Map location"
+    link: "contact"
 
 ############################## Venue Ext ##############################
 venue_ext:
-  enable : true
-  title_outline : "Venue"
-  title : "Certify & Chill"
-  image_back : "images/about/venue_back.png"
-  image_front : "images/about/venue_front.png"
+  enable: true
+  title_outline: "Venue"
+  title: "Certify & Chill"
+  image_back: "images/about/venue_back.png"
+  image_front: "images/about/venue_front.png"
   content : "Space goes fast, get your room today, and make sure to use our group rate when booking!"
   button:
-    enable : true
-    label : "Book a Room"
-    link : "https://www.marriott.com/en-us/hotels/RSWSB-marriott-sanibel-harbour-resort-and-spa/overview/?maps"
+    enable: true
+    label: "Book a Room"
+    link: "https://www.marriott.com/event-reservations/reservation-link.mi?id=1694098406998&key=GRP&app=resvlink"

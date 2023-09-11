@@ -1,7 +1,10 @@
 .footer {
 	background: url("../images/bg/footer-bg.png") no-repeat;
-	background-image: cover;
+    background-image: cover;
+    background-position: center;
+    background-size: cover;
 	padding-bottom: 35px;
+    position: relative;
 }
 
 .footer-socials {
