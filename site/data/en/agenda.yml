@@ -1,0 +1,232 @@
+################################# Agenda ############################
+agenda:
+  enable : true
+  title_outline : "agenda"
+  title : ""
+  content : ""
+  schedule_tab:
+    ################# tab item loop ################
+    - title : "Thursday"
+      date_time : "11 Jan, 2024 [08.00am - 09.00pm]"
+      schedule_items:
+        # schedule loop item
+        - time : "8.00am - 3.00pm"
+          image : "images/agenda/vendor.png"
+          content : "
+
+          ### Vendor Set-Up & Registration
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "1.00pm - 5.00pm"
+          image : "images/agenda/register.png"
+          content : "
+
+          ### Attendee Registration
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "5.00pm - 9.00pm"
+          image : "images/agenda/opening_night.png"
+          content : "
+
+          ### Opening Night Reception & Vendor Networking
+
+          ###### Keynote by Willie B. from Two Guy's Garage
+
+          "
+
+    ################# tab item loop ################
+    - title : "Friday"
+      date_time : "12 Jan, 2024 [06.30am - 08.30pm]"
+      schedule_items:
+        # schedule loop item
+        - time : "7.30am - 8.30am"
+          image : "images/agenda/breakfast.png"
+          content : "
+
+          ### Breakfast
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "8.30am - 12.00pm"
+          image : ""
+          content : "
+
+          ### Technical Classes
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "8.30am - 12.00pm"
+          image : ""
+          content : "
+
+          ### Management Classes
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "12.00pm - 1.00pm"
+          image : "images/agenda/lunch.png"
+          content : "
+
+          ### Lunch
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "1.00pm - 4.30pm"
+          image : ""
+          content : "
+
+          ### Technical Classes
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "1.00pm - 4.30pm"
+          image : ""
+          content : "
+
+          ### Management Classes
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "5.00pm - 6.30pm"
+          image : "images/agenda/party.png"
+          content : "
+
+          ### 'Sunset' Cocktail Party
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "6.30pm - 8.30pm"
+          image : "images/agenda/dinner.png"
+          content : "
+
+          ### Dinner
+
+          ######
+
+          "
+
+    ################# tab item loop ################
+    - title : "Saturday"
+      date_time : "13 Jan, 2024 [06.30am - 05.00pm]"
+      schedule_items:
+        # schedule loop item
+        - time : "7.30am - 8.30am"
+          image : "images/agenda/breakfast.png"
+          content : "
+
+          ### Breakfast
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "8.30am - 12.00pm"
+          image : ""
+          content : "
+
+          ### Technical Classes
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "8.30am - 12.00pm"
+          image : ""
+          content : "
+
+          ### Management Classes
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "12.00pm - 1.00pm"
+          image : "images/agenda/lunch.png"
+          content : "
+
+          ### Lunch
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "1.00pm - 4.30pm"
+          image : ""
+          content : "
+
+          ### Technical Classes
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "1.00pm - 4.30pm"
+          image : ""
+          content : "
+
+          ### Management Classes
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : "5.00pm"
+          image : "images/agenda/dinner.png"
+          content : "
+
+          ### Dinner On Your Own
+
+          ######
+
+          "
+
+
+    ################# tab item loop ################
+    - title : "Sunday"
+      date_time : "14 Jan ,2024 [08.00am - 12.00pm]"
+      schedule_items:
+        # schedule loop item
+        - time : "8.00am - 12.00pm"
+          image : "images/schedule/class.png"
+          content : "
+
+          ### Train the Trainer: Establishing an EV/Hybrid Program
+
+          ###### Educators Only
+
+          "

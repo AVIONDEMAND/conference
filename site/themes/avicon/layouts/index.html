@@ -108,6 +108,12 @@
 {{ end }}
 <!-- /feature -->
 
+<!-- agenda -->
+{{ if $data.homepage.agenda.enable }}
+{{ partial "agenda.html" . }}
+{{ end }}
+<!-- /agenda -->
+
 <!-- schedule -->
 {{ if $data.homepage.schedule.enable }}
 {{ partial "schedule.html" . }}

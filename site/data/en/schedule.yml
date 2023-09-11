@@ -1,310 +1,198 @@
 ################################# Schedule ############################
 schedule:
   enable : true
-  title_outline : "schedule"
-  title : "Subject to Change"
+  title_outline : "courses"
+  title : ""
   content : ""
   schedule_tab:
     ################# tab item loop ################
-    - title : "Thursday"
-      date_time : "11 Jan, 2024 [08.00am - 05.00pm]"
+    - title : "Diesel"
+      date_time : ""
       schedule_items:
         # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/air_brake.png"
-          content : "
-
-          ### Air Brake Hands-On
-
-          ###### Part 1
-
-          Heavy Duty
-          "
-
-    ################# tab item loop ################
-    - title : "Friday"
-      date_time : "12 Jan, 2024 [08.00am - 05.00pm]"
-      schedule_items:
-        # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/air_brake.png"
-          content : "
-
-          ### Air Brake Hands-On
-
-          ###### Part 1
-
-          Heavy Duty
-          "
-
-        # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/bosch_adas.png"
-          content : "
-
-          ### ADAS
-
-          ###### Part 1
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/lightning.png"
-          content : "
-
-          ### Ford Lightning EV Leading Technology
-
-          ###### 4 Hours
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "8.00am"
+        - time : ""
           image : "images/schedule/cummins.png"
           content : "
 
-          ### Cummins 6.7 Diesel
+          ### Cummins 6.7
 
-          ###### Part 1 
+          ######
 
-          Diesel
+          "
+
+    ################# tab item loop ################
+    - title : "Heavy Duty"
+      date_time : ""
+      schedule_items:
+        # schedule loop item
+        - time : ""
+          image : "images/schedule/air_brake.png"
+          content : "
+
+          ### Air Brake Hands-On
+
+          ######
+
           "
 
         # schedule loop item
-        - time : "8.00am"
+        - time : ""
+          image : "images/schedule/emissions.png"
+          content : "
+
+          ### DPF, EGR, & SCR Systems
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : ""
           image : "images/schedule/scan.png"
           content : "
 
           ### Scan Tool Dollar & Diagnostics
 
-          ###### 4 Hours
+          ######
 
-          Technical
-          "
-
-        # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/electric_shop.png"
-          content : "
-
-          ### Service Advisor Training
-
-          ###### Part 1
-
-          Service
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/air_brake.png"
-          content : "
-
-          ### Air Brake Hands-On
-
-          ###### Part 2
-
-          Heavy Duty
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/bosch_adas.png"
-          content : "
-
-          ### ADAS
-
-          ###### Part 2
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/chevy_bolt.png"
-          content : "
-
-          ### Chevy Bolt Technology
-
-          ###### 4 Hours
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/cummins.png"
-          content : "
-
-          ### Cummins 6.7 Diesel
-
-          ###### Part 2
-
-          Diesel
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/electric.png"
-          content : "
-
-          ### Lab Scope Dollar & Diagnostics
-
-          ###### 4 Hours
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/electric_shop.png"
-          content : "
-
-          ### Service Advisor Training
-
-          ###### Part 2
-
-          Service
           "
 
     ################# tab item loop ################
-    - title : "Saturday"
-      date_time : "13 Jan, 2024 [08.00am - 05.00pm]"
+    - title : "Management"
+      date_time : ""
       schedule_items:
         # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/can.png"
-          content : "
-
-          ### CAN & F CAN
-
-          ###### Part 1
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "8.00am"
+        - time : ""
           image : "images/schedule/profit.png"
           content : "
 
           ### Creating a Business Model for EV Service
 
-          ###### 4 Hours
+          ######
 
-          Management
           "
 
         # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/ac_compressor.png"
+        - time : ""
+          image : "images/schedule/electric_shop.png"
           content : "
 
-          ### EV A/C Systems & Compressors
+          ### Service Advisor Training
 
-          ###### Part 1
+          ######
 
-          Technical
           "
 
         # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/emissions.png"
-          content : "
-
-          ### DPF, EGR, & SCR Systems
-
-          ###### Part 1
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/plugs.png"
-          content : "
-
-          ### Ignition System Dollars & Diagnostics
-
-          ###### 4 Hours
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/can.png"
-          content : "
-
-          ### CAN & F CAN
-
-          ###### Part 2
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/court.png"
-          content : "
-
-          ### Courtroom Diagnostics: Thermal Events, Accidents, & Lawsuits
-
-          ###### 4 Hours
-
-          Techinical
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/ac_compressor.png"
-          content : "
-
-          ### EV A/C Systems & Compressors
-
-          ###### Part 2
-
-          Technical
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
-          image : "images/schedule/emissions.png"
-          content : "
-
-          ### DPF, EGR, & SCR Systems
-
-          ###### Part 2
-
-          Heavy Duty
-          "
-
-        # schedule loop item
-        - time : "1.00pm"
+        - time : ""
           image : "images/schedule/handshake.png"
           content : "
 
           ### X, Y, Z's of Hiring
 
-          ###### 4 Hours
+          ######
 
-          Management
           "
 
     ################# tab item loop ################
-    - title : "Sunday"
-      date_time : "14 Jan ,2024 [08.00am - 05.00pm]"
+    - title : "Technical"
+      date_time : ""
       schedule_items:
         # schedule loop item
-        - time : "8.00am"
-          image : "images/schedule/class.png"
+        - time : ""
+          image : "images/schedule/bosch_adas.png"
           content : "
 
-          ### Train the Trainer: Establishing an EV/Hybrid Program
+          ### ADAS
 
-          ###### 4 Hours
+          ######
 
-          Industry
+          "
+
+        # schedule loop item
+        - time : ""
+          image : "images/schedule/can.png"
+          content : "
+
+          ### CAN & F CAN
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : ""
+          image : "images/schedule/chevy_bolt.png"
+          content : "
+
+          ### Chevy Bolt Technology
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : ""
+          image : "images/schedule/court.png"
+          content : "
+
+          ### Courtroom Diagnostics: Thermal Events, Accidents, & Lawsuits
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : ""
+          image : "images/schedule/ac_compressor.png"
+          content : "
+
+          ### EV A/C Systems & Compressors
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : ""
+          image : "images/schedule/lightning.png"
+          content : "
+
+          ### Ford Lightning EV Leading Technology
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : ""
+          image : "images/schedule/plugs.png"
+          content : "
+
+          ### Ignition System Dollars & Diagnostics
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : ""
+          image : "images/schedule/electric.png"
+          content : "
+
+          ### Lab Scope Dollar & Diagnostics
+
+          ######
+
+          "
+
+        # schedule loop item
+        - time : ""
+          image : "images/schedule/scan.png"
+          content : "
+
+          ### Scan Tool Dollar & Diagnostics
+
+          ######
+
           "

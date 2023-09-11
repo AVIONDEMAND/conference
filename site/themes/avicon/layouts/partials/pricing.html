@@ -29,7 +29,8 @@
             {{ end }}
           </ul>
           {{ with .button }}
-          <a href="{{ .link | safeURL }}" class="btn btn-secondary btn-rounded mt-3 mb-5">{{ .label }}</a>
+          <a href="{{ .paypal_link | safeURL }}" class="btn btn-secondary btn-rounded mt-3 mb-5">{{ .paypal_label }}</a>
+          <a href="{{ .stripe_link | safeURL }}" class="btn btn-secondary btn-rounded mt-3 mb-5">{{ .stripe_label }}</a>
           {{ end }}
         </div>
       </div>

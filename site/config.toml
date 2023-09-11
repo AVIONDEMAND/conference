@@ -9,7 +9,7 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "avicon" # get your shortname form here: https://disqus.com
 # disable language
-disableLanguages = [] # disable language from here
+disableLanguages = ['fr'] # disable language from here
 
 # output
 [outputs]
@@ -43,20 +43,20 @@ link = "plugins/google-map/map.js"
 
 ############################## navigation ###############################
 [menu]
-    
+
   [[menu.main]]
   name = "About"
   URL = "about"
   weight = 2
-  
+    
   [[menu.main]]
-  name = "Speakers"
-  URL = "speaker"
+  name = "Agenda"
+  URL = "agenda"
   weight = 3
 
   [[menu.main]]
-  hasChildren = true
-  name = "Event"
+  name = "Courses"
+  URL = "schedule"
   weight = 4
 
   [[menu.main]]
@@ -64,20 +64,10 @@ link = "plugins/google-map/map.js"
   URL = "contact"
   weight = 5
 
-    [[menu.main]]
-    parent = "Event"
-    name = "FAQ"
-    URL = "faq"
-
-    [[menu.main]]
-    parent = "Event"
-    name = "Tickets"
-    URL = "pricing"
-
-    [[menu.main]]
-    parent = "Event"
-    name = "Schedule"
-    URL = "schedule"
+  [[menu.main]]
+  name = "FAQ"
+  URL = "faq"
+  weight = 6
 
 #    [[menu.main]]
 #    parent = "Pages"
@@ -155,7 +145,7 @@ link = "mailto:support@aviconference.com"
 
 
 ################################### English language #####################################
-[Languages.en]
+[languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
@@ -166,7 +156,7 @@ copyright = "800 718-7246"
 
 
 ################################### French language #####################################
-[Languages.fr]
+[languages.fr]
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
