@@ -24,9 +24,10 @@ jobs:
       - name: Build
         env:
           ANALYTICS: ${{ secrets.ANALYTICS }}
+          FORM_ID: ${{ secrets.FORM_ID }}
           GMAP_API: ${{ secrets.GMAP_API }}
         run: |
-          sed -i -e "s|^gmap_api =.*|gmap_api = \"$GMAP_API\"|" -e "s|^google_analytics_id =.*|google_analytics_id = \"$ANALYTICS\"|" config.toml
+          sed -i -e "s|^gmap_api =.*|gmap_api = \"$GMAP_API\"|" -e "s|^google_analytics_id =.*|google_analytics_id = \"$ANALYTICS\"|" -e "s|^contact_form_action =.*|contact_form_action = \"$FORM_ID\"|" config.toml
           hugo --minify
         working-directory: ./site
 

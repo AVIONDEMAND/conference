@@ -84,7 +84,7 @@ author = "byteskeptical"
 # email address
 email = "support@aviconference.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = ""
 # Google Analitycs
 google_analytics_id = ""
 # search for blog page

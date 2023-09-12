@@ -30,8 +30,8 @@
 	}
 
 	i {
-		font-size:60px;
-		color:$white;
+		font-size: 60px;
+		color: $white;
 	}
 }
 
@@ -41,25 +41,49 @@
 
 .style-1 {
 	.pname {
-		border-color:$primary-color;
+		border-color: $orange;
+	}
+	.btn-p {
+		border-color: $secondary-color;
+		background: $secondary-color;
+		color: $white;
+	}
+	.btn-s {
+		border-color: $purple;
+		background: $purple;
+		color: $white;
 	}
 }
 
 .style-2 {
 	.pname {
-		border-color:$orange;
+		border-color: $orange;
 	}
-
-	.btn {
-		border-color:$orange;
-		background: $orange;
+	.btn-p {
+		border-color: $secondary-color;
+		background: $secondary-color;
+		color: $white;
+	}
+	.btn-s {
+		border-color: $purple;
+		background: $purple;
 		color: $white;
 	}
 }
 
 .style-3 {
 	.pname {
-		border-color:$secondary-color;
+		border-color: $yellow;
+	}
+	.btn-p {
+		border-color: $secondary-color;
+		background: $secondary-color;
+		color: $white;
+	}
+	.btn-s {
+		border-color: $purple;
+		background: $purple;
+		color: $white;
 	}
 }
 

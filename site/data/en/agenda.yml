@@ -59,7 +59,7 @@ agenda:
 
         # schedule loop item
         - time : "8.30am - 12.00pm"
-          image : ""
+          image : "images/agenda/technical.png"
           content : "
 
           ### Technical Classes
@@ -70,7 +70,7 @@ agenda:
 
         # schedule loop item
         - time : "8.30am - 12.00pm"
-          image : ""
+          image : "images/agenda/management.png"
           content : "
 
           ### Management Classes
@@ -92,7 +92,7 @@ agenda:
 
         # schedule loop item
         - time : "1.00pm - 4.30pm"
-          image : ""
+          image : "images/agenda/technical.png"
           content : "
 
           ### Technical Classes
@@ -103,7 +103,7 @@ agenda:
 
         # schedule loop item
         - time : "1.00pm - 4.30pm"
-          image : ""
+          image : "images/agenda/management.png"
           content : "
 
           ### Management Classes
@@ -151,7 +151,7 @@ agenda:
 
         # schedule loop item
         - time : "8.30am - 12.00pm"
-          image : ""
+          image : "images/agenda/technical.png"
           content : "
 
           ### Technical Classes
@@ -162,7 +162,7 @@ agenda:
 
         # schedule loop item
         - time : "8.30am - 12.00pm"
-          image : ""
+          image : "images/agenda/management.png"
           content : "
 
           ### Management Classes
@@ -184,7 +184,7 @@ agenda:
 
         # schedule loop item
         - time : "1.00pm - 4.30pm"
-          image : ""
+          image : "images/agenda/technical.png"
           content : "
 
           ### Technical Classes
@@ -195,7 +195,7 @@ agenda:
 
         # schedule loop item
         - time : "1.00pm - 4.30pm"
-          image : ""
+          image : "images/agenda/management.png"
           content : "
 
           ### Management Classes
