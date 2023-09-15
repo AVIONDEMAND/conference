@@ -10,6 +10,8 @@
           <div class="pl-90">
             <h2 class="mt-2">{{ .title | markdownify }}</h2>
             <p>{{ .content | markdownify }}</p>
+            <a href="{{ .link | absURL }}" class="btn btn-secondary btn-rounded my-4">{{ .label }}</a>
+            </div>
           </div>
         </div>
       </div>

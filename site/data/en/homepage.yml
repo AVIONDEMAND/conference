@@ -136,7 +136,7 @@ venue:
   title: "Venue"
   image: "images/bg/venue.png"
   date: "11th - 14th January, 2024"
-  location: "17260 Harbour Pointe Dr., Fort Myers <br>Florida 33908, United States"
+  location: "Marriot Sanibel Harbor Resort & Spa <br>17260 Harbour Pointe Dr., Fort Myers <br>Florida 33908, United States"
   button:
     enable: true
     label: "View Map location"

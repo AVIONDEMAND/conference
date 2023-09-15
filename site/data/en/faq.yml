@@ -14,11 +14,13 @@ faq:
 
     # faq item loop
     - title : "Are refunds avalaible?"
-      content : "The event start date is January 11th, 2024. For cancellations made at least 30 days prior to the event start date a full refund will be issued. For cancellations made 29 to 14 days prior to the event start date a 50% refund will be issued. For cancellations made less than 14 days prior to the event start date no refund will be issued. Considerations will be made on a case-by-case basis. Please reach out to us if something comes up that would cause you to cancel."
-
-    # faq item loop
-    - title : "When does registration close?"
-      content : "January 4th, 2023 is the last day to register for this years conference."
+      content : "The start date is January 11th, 2024:<br>
+        <ul>
+          <li>cancellations made 30 days prior to start date will be issued a full refund.</li>
+          <li>cancellations made 29 to 14 days prior to start date will be issued a 50% refund.</li>
+          <li>cancellations made less than 14 days prior to start date will be issued no refund.</li>
+        </ul>
+Considerations will be made on a case-by-case basis. Please reach out to us if something comes up that would cause you to cancel."
 
 ################################# Support ####################################
   support:

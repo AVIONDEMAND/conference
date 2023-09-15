@@ -120,28 +120,20 @@ map_marker = "images/marker.png"
 
 ############################# social icon ############################
 [[params.social]]
-icon = "tf-ion-social-facebook"
-link = "https://www.facebook.com/AVIautomotivevideo/"
-
-[[params.social]]
-icon = "tf-ion-social-twitter"
-link = "https://twitter.com/automotivevideo"
-
-[[params.social]]
-icon = "tf-ion-social-linkedin"
-link = "https://www.linkedin.com/company/avi-automotive-video-innovations-llc/"
+icon = "tf-ion-iphone"
+link = "tel:8007187246"
 
 [[params.social]]
 icon = "tf-ion-email"
 link = "mailto:support@aviconference.com"
 
-#[[params.social]]
-#icon = "tf-ion-map"
-#link = "#"
+[[params.social]]
+icon = "tf-ion-map"
+link = "https://www.google.com/maps/place/Marriott+Sanibel+Harbour+Resort+%26+Spa/@26.4890868,-82.0143359,17z/data=!4m9!3m8!1s0x88db398e4da1d165:0x537b393cdd57450e!5m2!4m1!1i2!8m2!3d26.4890868!4d-82.011761!16s"
 
-#[[params.social]]
-#icon = "tf-ion-social-rss"
-#link = "#"
+[[params.social]]
+icon = "tf-ion-ios-home"
+link = "https://www.marriott.com/event-reservations/reservation-link.mi?id=1694098406998&key=GRP&app=resvlink"
 
 
 ################################### English language #####################################
