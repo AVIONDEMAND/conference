@@ -19,6 +19,14 @@
 	}
 }
 
+.ml-90 {
+	margin-left: 160px;
+
+	@include desktop {
+		margin-left: 0;
+	}
+}
+
 .stroke-text {
 	color: transparent;
 	-webkit-text-stroke-width: 1px;
@@ -39,12 +47,5 @@
 .text-lg {
 	font-size: 52px;
 	line-height: 1.1;
-}
-
-.ml-90 {
-	margin-left: 160px;
-
-	@include desktop {
-		margin-left: 0;
-	}
+    text-align: left;
 }

@@ -28,10 +28,8 @@ pricing:
         - "Friday Night Dinner & Event"
         - "Certificates"
       button:
-        paypal_label : "Paypal"
-        stripe_label : "Stripe"
-        paypal_link : "https://www.paypal.com/cgi-bin/webscr?business=ANDWYGACQCBE8&cmd=_xclick&amount=2400.00&item_name=VIP+Pass&currency_code=USD"
-        stripe_link : "https://book.stripe.com/00gg0J4sph2Edq05kn"
+        label : "Book Now"
+        link : "https://book.stripe.com/00gg0J4sph2Edq05kn"
 
     # pricing table loop
     - title : "Tuition & Hotel Package"
@@ -47,10 +45,8 @@ pricing:
         - "Friday Night Dinner & Event"
         - "Certificates"
       button:
-        paypal_label : "Paypal"
-        stripe_label : "Stripe"
-        paypal_link : "https://www.paypal.com/cgi-bin/webscr?business=ANDWYGACQCBE8&cmd=_xclick&amount=1700.00&item_name=Tuition+Package&currency_code=USD"
-        stripe_link : "https://book.stripe.com/4gw29T2khfYA99KeUY"
+        label : "Book Now"
+        link : "https://book.stripe.com/4gw29T2khfYA99KeUY"
 
     # pricing table loop
     - title : "Tuition Pass"
@@ -65,10 +61,8 @@ pricing:
         - "Friday Dinner & Event"
         - "Certificates"
       button:
-        paypal_label : "Paypal"
-        stripe_label : "Stripe"
-        paypal_link : "https://www.paypal.com/cgi-bin/webscr?business=ANDWYGACQCBE8&cmd=_xclick&amount=600&item_name=Tuition+Pass&currency_code=USD"
-        stripe_link : "https://book.stripe.com/8wM4i1gb76o071C3ce"
+        label : "Book Now"
+        link : "https://book.stripe.com/8wM4i1gb76o071C3ce"
 
     # pricing table loop
     - title : "Spouse Pass"
@@ -82,10 +76,8 @@ pricing:
         - "Breakfast & Lunch, Friday & Saturday"
         - "Friday Night Dinner & Event"
       button:
-        paypal_label : "Paypal"
-        stripe_label : "Stripe"
-        paypal_link : "https://www.paypal.com/cgi-bin/webscr?business=ANDWYGACQCBE8&cmd=_xclick&amount=400.00&item_name=Spouse+Pass&currency_code=USD"
-        stripe_link : "https://book.stripe.com/4gwbKt5wtfYA5XyaEF"
+        label : "Book Now"
+        link : "https://book.stripe.com/4gwbKt5wtfYA5XyaEF"
 
 ############################## Event ##############################
 venue_ext:
